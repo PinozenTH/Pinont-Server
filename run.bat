@@ -1,0 +1,1 @@
+java -jar -Xms128M -Xmx3G paper.jar nogui

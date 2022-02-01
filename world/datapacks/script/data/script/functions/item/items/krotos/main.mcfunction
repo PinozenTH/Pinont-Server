@@ -1,0 +1,2 @@
+execute at @s anchored feet run summon armor_stand ^ ^ ^1 {Marker:1b,Invulnerable:1b,Invisible:1b,Tags:["Krotos"],DisabledSlots:4144959}
+execute at @s run playsound minecraft:entity.firework_rocket.launch master @a ~ ~ ~ 1 1 0

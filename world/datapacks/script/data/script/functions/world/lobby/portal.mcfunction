@@ -1,0 +1,1 @@
+execute in minecraft:arena run tp @s -2 65 0

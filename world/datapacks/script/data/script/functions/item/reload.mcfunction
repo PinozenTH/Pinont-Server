@@ -1,0 +1,3 @@
+scoreboard objectives add Right_Click minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add Timer_Item dummy
+scoreboard objectives add Timer_Helmet dummy

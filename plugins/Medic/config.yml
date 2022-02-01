@@ -1,0 +1,15 @@
+# PERMISSIONS:
+# 
+# Operators automatically have these permissions. To give them all permissions to all commands, Do /op <player>
+# 
+# medic.heal for command /heal 
+# medic.healthinfo for command /healthinfo 
+# medic.sethealth for command sethealth
+# medic.sethunger for command /sethealth
+# medic.setsaturation for command /setsaturation
+# medic.setmaxhealth for command /setmaxhealth
+# medic.help for command /medic
+# medic.* for all medic permissions
+# 
+# Medic Version 2.0.0
+

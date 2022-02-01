@@ -1,0 +1,1811 @@
+[09:12:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:12:21] [main/INFO]: Reloading ResourceManager: Default, bukkit, worldpainter.zip
+[09:12:22] [Worker-Main-1/INFO]: Loaded 7 recipes
+[09:12:23] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[09:12:23] [Server thread/INFO]: Loading properties
+[09:12:23] [Server thread/INFO]: This server is running Paper version git-Paper-408 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: cc43ba7 on ver/1.17.1)
+[09:12:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:12:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:12:24] [Server thread/INFO]: Default game type: SURVIVAL
+[09:12:24] [Server thread/INFO]: Generating keypair
+[09:12:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:12:24] [Server thread/INFO]: Using default channel type
+[09:12:24] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[09:12:24] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[09:12:25] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_17_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[09:12:30] [Server thread/WARN]: Legacy plugin MultiWorld v5.2.8 does not specify an api-version.
+[09:12:30] [Server thread/WARN]: Legacy plugin Invsee v1.0.0 does not specify an api-version.
+[09:12:30] [Server thread/WARN]: Legacy plugin ChairStairs v1.1 does not specify an api-version.
+[09:12:31] [Server thread/INFO]: [MultiWorld] Loading MultiWorld v5.2.8
+[09:12:31] [Server thread/INFO]: [Medic] Loading Medic v2.0.2
+[09:12:31] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[09:12:31] [Server thread/INFO]: [AFKPlus] Loading AFKPlus v3.3.13
+[09:12:31] [Server thread/INFO]: [Vanish] Loading Vanish v1.2
+[09:12:31] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[09:12:31] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
+[09:12:31] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
+[09:12:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[09:12:31] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[09:12:31] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[09:12:31] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[09:12:31] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[09:12:31] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[09:12:31] [Server thread/INFO]: [PersonalVaults] Loading PersonalVaults v1.0.0
+[09:12:31] [Server thread/INFO]: [HoloDrops] Loading HoloDrops v2.6
+[09:12:31] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[09:12:31] [Server thread/INFO]: [ServersNPC] Loading ServersNPC v3.6
+[09:12:31] [Server thread/INFO]: [ChairStairs] Loading ChairStairs v1.1
+[09:12:31] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.1.1
+[09:12:31] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[09:12:31] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:12:31] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[09:12:31] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[09:12:31] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[09:12:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:12:31] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[09:12:31] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[09:12:31] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[09:12:31] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[09:12:31] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[09:12:31] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[09:12:32] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[09:12:32] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[09:12:32] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[09:12:32] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[09:12:32] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.0
+[09:12:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.8+6008-1246d61
+[09:12:34] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@72246c80]
+[09:12:34] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.4-Release
+[09:12:34] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[09:12:34] [Server thread/INFO]: [PowerRanks] Loading PowerRanks v1.10.4
+[09:12:34] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6+1cff55f
+[09:12:34] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.29-SNAPSHOT (build 2419)
+[09:12:34] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.14.0
+[09:12:34] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (302 ms).
+[09:12:34] [Server thread/INFO]: [Shopkeepers] Loading config.
+[09:12:34] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[09:12:34] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[09:12:34] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[09:12:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:12:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:12:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:12:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:12:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.0
+[09:12:34] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[09:12:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.8+6008-1246d61
+[09:12:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:12:34] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[09:12:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_17_R1_2.PaperweightAdapter as the Bukkit adapter
+[09:12:35] [Server thread/INFO]: [PowerRanks] Enabling PowerRanks v1.10.4
+[09:12:35] [Server thread/INFO]: [PowerRanks] 
+[09:12:35] [Server thread/INFO]: [PowerRanks] === ------- LOADING CONFIGURATION ------ ===
+[09:12:35] [Server thread/INFO]: [PowerRanks] Loading config file
+[09:12:36] [Server thread/INFO]: [PowerRanks] Loading language file
+[09:12:36] [Server thread/INFO]: [PowerRanks] Loading usertags file
+[09:12:36] [Server thread/INFO]: [PowerRanks] 
+[09:12:36] [Server thread/INFO]: [PowerRanks] === ---------- LOADING ADDONS ---------- ===
+[09:12:36] [Server thread/INFO]: [PowerRanks] Loaded 0 add-on(s)!
+[09:12:36] [Server thread/INFO]: [PowerRanks] 
+[09:12:36] [Server thread/INFO]: [PowerRanks] === ----------- LOADING DATA ----------- ===
+[09:12:36] [Server thread/INFO]: [PowerRanks] Loading player & rank data
+[09:12:36] [Server thread/INFO]: [PowerRanks] 
+[09:12:36] [Server thread/INFO]: [PowerRanks] === ------- LOADING PLUGIN HOOKS ------- ===
+[09:12:36] [Server thread/INFO]: [PowerRanks] Checking for plugins to hook in to:
+[09:12:36] [Server thread/INFO]: [PowerRanks] Vault found!
+[09:12:36] [Server thread/INFO]: [PowerRanks] Enabling Vault Economy integration.
+[09:12:36] [Server thread/INFO]: [PowerRanks] Enabling Vault Permission integration.
+[09:12:36] [Server thread/INFO]: [PowerRanks] PlaceholderAPI found!
+[09:12:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: powerranks [1.10.4]
+[09:12:36] [Server thread/INFO]: [PowerRanks] 
+[09:12:36] [Server thread/INFO]: [PowerRanks]   ??????? ???????  PowerRanks v1.10.4
+[09:12:36] [Server thread/INFO]: [PowerRanks]   ???????????????? Running on Paper v1.17.1
+[09:12:36] [Server thread/INFO]: [PowerRanks]   ???????????????? Startup time: 617ms
+[09:12:36] [Server thread/INFO]: [PowerRanks]   ??????? ???????? Loaded 4 ranks and 4 players (YAML) 
+[09:12:36] [Server thread/INFO]: [PowerRanks]   ???     ???  ??? 
+[09:12:36] [Server thread/INFO]: [PowerRanks] 
+[09:12:36] [Server thread/INFO]: [PowerRanks] If you'd like to donate, please visit https://ko-fi.com/svenar or https://patreon.com/svenar
+[09:12:36] [Server thread/INFO]: [PowerRanks] Checking for updates...
+[09:12:37] [Server thread/INFO]: Preparing level "Lobby"
+[09:12:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:12:38] [Server thread/INFO]: Time elapsed: 404 ms
+[09:12:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:12:39] [Server thread/INFO]: Time elapsed: 150 ms
+[09:12:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:12:39] [Server thread/INFO]: Time elapsed: 187 ms
+[09:12:39] [Server thread/INFO]: [MultiWorld] Enabling MultiWorld v5.2.8*
+[09:12:40] [Server thread/INFO]: Preparing start region for dimension minecraft:old-world
+[09:12:40] [Server thread/INFO]: Time elapsed: 76 ms
+[09:12:41] [Server thread/INFO]: Preparing start region for dimension minecraft:world
+[09:12:41] [Server thread/INFO]: Time elapsed: 57 ms
+[09:12:41] [Server thread/INFO]: [MultiWorld] v5.2.8 enabled.
+[09:12:41] [Server thread/INFO]: [Medic] Enabling Medic v2.0.2
+[09:12:41] [Server thread/INFO]: ---------------------------------------------------
+[09:12:41] [Server thread/INFO]: Medic Loaded!
+[09:12:41] [Server thread/INFO]: Made by shivamCode! Link: https://dev.bukkit.org/projects/medic-1
+[09:12:41] [Server thread/INFO]: ---------------------------------------------------
+[09:12:41] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[09:12:41] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.1.1 which is not a depend, softdepend or loadbefore of this plugin.
+[09:12:41] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[09:12:41] [Server thread/INFO]: [AFKPlus] Enabling AFKPlus v3.3.13
+[09:12:42] [Server thread/INFO]: [AFKPlus] AFKPlus v.3.3.13 has been enabled!
+[09:12:42] [Server thread/INFO]: [Vanish] Enabling Vanish v1.2
+[09:12:42] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0*
+[09:12:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
+[09:12:42] [Server thread/INFO]: [PersonalVaults] Enabling PersonalVaults v1.0.0
+[09:12:42] [Server thread/INFO]: [HoloDrops] Enabling HoloDrops v2.6
+[09:12:42] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v3.6
+[09:12:42] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.server.level.EntityPlayer
+[09:12:42] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PlayerInteractManager
+[09:12:42] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PlayerInteractManager
+[09:12:42] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PacketPlayOutScoreboardTeam
+[09:12:42] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PacketPlayOutEntityEquipment
+[09:12:42] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PacketPlayOutEntityEquipment
+[09:12:42] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.world.entity.Entity
+[09:12:42] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.syncher.DataWatcher
+[09:12:42] [Server thread/INFO]: [ChairStairs] Enabling ChairStairs v1.1*
+[09:12:42] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.1.1
+[09:12:42] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[09:12:42] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[09:12:42] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[09:12:42] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_the_end
+[09:12:42] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[09:12:42] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_nether
+[09:12:42] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[09:12:42] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[09:12:42] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[09:12:42] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[09:12:42] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.4-Release
+[09:12:42] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[09:12:43] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[09:12:43] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[09:12:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.4-Release]
+[09:12:43] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6+1cff55f
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby_nether) TNT ignition is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lighters are PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lava fire is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Fire spread is UNRESTRICTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_nether'
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) TNT ignition is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lighters are PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lava fire is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Fire spread is UNRESTRICTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_the_end'
+[09:12:44] [Server thread/INFO]: [WorldGuard] (old-world) TNT ignition is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (old-world) Lighters are PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (old-world) Lava fire is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (old-world) Fire spread is UNRESTRICTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'old-world'
+[09:12:44] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[09:12:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[09:12:44] [Server thread/INFO]: [WorldGuard] Loading region data...
+[09:12:45] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2419)
+[09:12:45] [Server thread/INFO]: [Citizens] [STDOUT] [Citizens] Leaked by YOURNAME @ BlackSpigot.com
+[09:12:45] [Server thread/WARN]: Nag author(s): '[fullwall]' of 'Citizens' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[09:12:45] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.14.0
+[09:12:45] [Server thread/INFO]: [Shopkeepers] Citizens found: Enabling NPC shopkeepers.
+[09:12:46] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[09:12:46] [Server thread/INFO]: Starting GS4 status listener
+[09:12:47] [Server thread/INFO]: Thread Query Listener started
+[09:12:47] [Server thread/INFO]: Starting remote control listener
+[09:12:47] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[09:12:47] [Server thread/INFO]: Thread RCON Listener started
+[09:12:47] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[09:12:47] [Server thread/INFO]: Running delayed init tasks
+[09:12:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.17.1 (756)
+[09:12:47] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[09:12:47] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:12:47] [Craft Scheduler Thread - 0 - AFKPlus/INFO]: [AFKPlus] AFKPlus file watcher started!
+[09:12:48] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[09:12:48] [Craft Scheduler Thread - 2 - AFKPlus/INFO]: [AFKPlus] There is no update available
+[09:12:48] [Server thread/INFO]: [Citizens] Loaded 4 NPCs.
+[09:12:48] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:12:48] [Server thread/INFO]: Done (24.787s)! For help, type "help"
+[09:12:48] [Server thread/INFO]: Timings Reset
+[09:12:54] [User Authenticator #1/INFO]: UUID of player Pinont_ is 1ef0ba4a-36e1-42ee-820e-15946cc1dac9
+[09:12:54] [Server thread/INFO]: Pinont_ joined the game
+[09:12:54] [Server thread/INFO]: Pinont_[/127.0.0.1:57486] logged in with entity id 149 at ([Lobby]300.2788682694711, 101.0, 276.69786183611956)
+[09:15:35] [Server thread/INFO]: Pinont_ is now AFK
+[09:15:35] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:17:37] [Server thread/WARN]: [PowerRanks] No Vault compatible economy plugin found! Giving up.
+[09:30:15] [Server thread/INFO]: Pinont_ is no longer AFK
+[09:30:15] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:31:47] [Server thread/INFO]: Pinont_ is now AFK
+[09:31:47] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:33:04] [Server thread/INFO]: Pinont_ is no longer AFK
+[09:33:04] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:34:34] [Server thread/INFO]: Pinont_ is now AFK
+[09:34:34] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:37:26] [Server thread/INFO]: Pinont_ is no longer AFK
+[09:37:26] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:41:26] [User Authenticator #2/INFO]: UUID of player RichterYT is 5228ca13-f006-414b-b5f9-1c3752531499
+[09:41:26] [Server thread/INFO]: RichterYT joined the game
+[09:41:26] [Server thread/INFO]: RichterYT[/25.15.25.250:54855] logged in with entity id 181 at ([Lobby]302.51850173308014, 101.0, 274.576792711264)
+[09:41:31] [Async Chat Thread - #0/INFO]: Lobby OWNER Pinont_: hi
+[09:41:47] [Async Chat Thread - #0/INFO]: Lobby OWNER Pinont_: can u talk now?
+[09:42:23] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[09:42:23] [Server thread/INFO]: [Pinont_: Teleported Pinont_ to RichterYT]
+[09:44:28] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:44:28] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:44:36] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:44:36] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:44:50] [Server thread/INFO]: RichterYT issued server command: /datapack list available
+[09:44:52] [Server thread/INFO]: RichterYT issued server command: /datapack list enabled
+[09:45:48] [Async Chat Thread - #1/INFO]: Lobby ADMIN RichterYT: ./datapack list enabled
+[09:45:54] [Server thread/INFO]: Pinont_ issued server command: /datapack
+[09:45:58] [Server thread/INFO]: Pinont_ issued server command: /datapack list
+[09:46:03] [Async Chat Thread - #1/INFO]: Lobby ADMIN RichterYT: terhcir
+[09:47:28] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:47:28] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:47:29] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:47:29] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:47:31] [Server thread/INFO]: RichterYT issued server command: //pos1
+[09:47:36] [Server thread/INFO]: RichterYT issued server command: //pos2
+[09:47:39] [Server thread/INFO]: RichterYT issued server command: //count barrel
+[09:49:45] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:49:45] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:49:48] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:49:48] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:50:34] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:50:34] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:50:35] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:50:35] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:51:34] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:51:34] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:51:40] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:51:40] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:52:32] [Server thread/INFO]: RichterYT lost connection: Disconnected
+[09:52:33] [Server thread/INFO]: RichterYT left the game
+[09:52:46] [User Authenticator #3/INFO]: UUID of player RichterYT is 5228ca13-f006-414b-b5f9-1c3752531499
+[09:52:46] [Server thread/INFO]: RichterYT joined the game
+[09:52:46] [Server thread/INFO]: RichterYT[/25.15.25.250:55024] logged in with entity id 189 at ([Lobby]312.90317392184085, 108.0, 277.0099130457287)
+[09:53:08] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:music_disc_otherside
+[09:53:33] [Async Chat Thread - #2/INFO]: Lobby ADMIN RichterYT: ,/give @p minecraft:music_disc_otherside
+[09:53:35] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:53:35] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:53:35] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:53:35] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:53:37] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:53:37] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:53:37] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:53:37] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:53:40] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:53:40] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:53:41] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:53:41] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:53:57] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[09:53:57] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[09:53:58] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[09:53:58] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[09:55:23] [Server thread/INFO]: Pinont_ is now AFK
+[09:55:23] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:55:23] [Server thread/INFO]: Pinont_ is no longer AFK
+[09:55:23] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:55:27] [Server thread/INFO]: Pinont_ issued server command: /function list
+[09:55:30] [Server thread/INFO]: Pinont_ issued server command: /function
+[09:56:54] [Server thread/INFO]: Pinont_ is now AFK
+[09:56:54] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:57:11] [Server thread/INFO]: Pinont_ is no longer AFK
+[09:57:11] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:58:33] [Server thread/INFO]: RichterYT issued server command: /pl
+[09:58:44] [Server thread/INFO]: RichterYT issued server command: /shopkeeper
+[09:59:08] [Server thread/INFO]: Pinont_ is now AFK
+[09:59:08] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:59:14] [Server thread/INFO]: RichterYT issued server command: /shopkeeper
+[09:59:25] [Server thread/INFO]: Pinont_ is no longer AFK
+[09:59:25] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:59:33] [Server thread/INFO]: Pinont_ issued server command: /reload datapacks
+[09:59:33] [Server thread/INFO]: Pinont_: Usage: /reload [permissions|commands|confirm]
+[09:59:38] [Server thread/INFO]: Pinont_ issued server command: /reload confirm
+[09:59:38] [Server thread/INFO]: Pinont_: Please note that this command is not supported and may cause issues when using some plugins.
+[09:59:38] [Server thread/INFO]: Pinont_: If you encounter any issues please use the /stop command to restart your server.
+[09:59:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:59:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:59:38] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.14.0
+[09:59:38] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2419)
+[09:59:38] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6+1cff55f
+[09:59:38] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[09:59:38] [Server thread/INFO]: [PowerRanks] Disabling PowerRanks v1.10.4
+[09:59:38] [Server thread/INFO]: [PowerRanks] Disabled PowerRanks v1.10.4
+[09:59:38] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.4-Release
+[09:59:38] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.8+6008-1246d61
+[09:59:38] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[09:59:38] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.0
+[09:59:39] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[09:59:39] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.1.1
+[09:59:39] [Server thread/INFO]: [ChairStairs] Disabling ChairStairs v1.1
+[09:59:39] [Server thread/INFO]: [ChairStairs] has been disabled.
+[09:59:39] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v3.6
+[09:59:39] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[09:59:39] [Server thread/INFO]: [HoloDrops] Disabling HoloDrops v2.6
+[09:59:39] [Server thread/INFO]: [PersonalVaults] Disabling PersonalVaults v1.0.0
+[09:59:39] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.1.1
+[09:59:39] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[09:59:39] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[09:59:39] [Server thread/INFO]: [Vanish] Disabling Vanish v1.2
+[09:59:39] [Server thread/INFO]: [AFKPlus] Disabling AFKPlus v3.3.13
+[09:59:39] [Server thread/INFO]: [AFKPlus] AFKPlus has been disabled!
+[09:59:39] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
+[09:59:39] [Server thread/INFO]: [Medic] Disabling Medic v2.0.2
+[09:59:39] [Server thread/INFO]: [MultiWorld] Disabling MultiWorld v5.2.8
+[09:59:39] [Server thread/INFO]: [MultiWorld] Disabled.
+[09:59:39] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, worldpainter.zip, otherstepdpbyblueaxolotl.zip, othersteprp.zip
+[09:59:39] [Server thread/INFO]: Loaded 7 recipes
+[09:59:40] [Server thread/WARN]: RichterYT moved too quickly! 0.10334683890181395,-7.468142692569401,-7.0985248551329505
+[09:59:41] [Server thread/WARN]: Legacy plugin MultiWorld v5.2.8 does not specify an api-version.
+[09:59:41] [Server thread/WARN]: Legacy plugin Invsee v1.0.0 does not specify an api-version.
+[09:59:41] [Server thread/WARN]: Legacy plugin ChairStairs v1.1 does not specify an api-version.
+[09:59:41] [Server thread/INFO]: [MultiWorld] Loading MultiWorld v5.2.8
+[09:59:41] [Server thread/INFO]: [Medic] Loading Medic v2.0.2
+[09:59:41] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[09:59:41] [Server thread/INFO]: [AFKPlus] Loading AFKPlus v3.3.13
+[09:59:41] [Server thread/INFO]: [Vanish] Loading Vanish v1.2
+[09:59:41] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[09:59:41] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
+[09:59:41] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
+[09:59:41] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, we're going to kick all the players... because otherwise we'll crash because of ProtocolLib.
+[09:59:42] [Server thread/INFO]: Pinont_ lost connection: Server reload, please rejoin!
+[09:59:42] [Server thread/INFO]: Pinont_ left the game
+[09:59:42] [Server thread/INFO]: RichterYT lost connection: Server reload, please rejoin!
+[09:59:42] [Server thread/INFO]: RichterYT left the game
+[09:59:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[09:59:42] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[09:59:42] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[09:59:42] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[09:59:42] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[09:59:42] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[09:59:42] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[09:59:42] [Server thread/INFO]: [PersonalVaults] Loading PersonalVaults v1.0.0
+[09:59:42] [Server thread/INFO]: [HoloDrops] Loading HoloDrops v2.6
+[09:59:42] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[09:59:42] [Server thread/INFO]: [ServersNPC] Loading ServersNPC v3.6
+[09:59:42] [Server thread/INFO]: [ChairStairs] Loading ChairStairs v1.1
+[09:59:42] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.1.1
+[09:59:42] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[09:59:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:59:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:59:42] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[09:59:42] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[09:59:42] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[09:59:42] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[09:59:42] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[09:59:42] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[09:59:42] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[09:59:42] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[09:59:42] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[09:59:42] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[09:59:42] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[09:59:42] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[09:59:43] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.0
+[09:59:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.8+6008-1246d61
+[09:59:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7301c6e7]
+[09:59:44] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.4-Release
+[09:59:44] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[09:59:44] [Server thread/INFO]: [PowerRanks] Loading PowerRanks v1.10.4
+[09:59:44] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6+1cff55f
+[09:59:44] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.29-SNAPSHOT (build 2419)
+[09:59:44] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.14.0
+[09:59:44] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (239 ms).
+[09:59:44] [Server thread/INFO]: [Shopkeepers] Loading config.
+[09:59:44] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[09:59:44] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[09:59:44] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[09:59:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:59:44] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:59:44] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:59:44] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:59:44] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.0
+[09:59:44] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[09:59:44] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.8+6008-1246d61
+[09:59:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[09:59:44] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[09:59:44] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[09:59:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_17_R1_2.PaperweightAdapter as the Bukkit adapter
+[09:59:45] [Server thread/INFO]: [PowerRanks] Enabling PowerRanks v1.10.4
+[09:59:45] [Server thread/INFO]: [PowerRanks] 
+[09:59:45] [Server thread/INFO]: [PowerRanks] === ------- LOADING CONFIGURATION ------ ===
+[09:59:45] [Server thread/INFO]: [PowerRanks] Loading config file
+[09:59:45] [Server thread/INFO]: [PowerRanks] Loading language file
+[09:59:45] [Server thread/INFO]: [PowerRanks] Loading usertags file
+[09:59:45] [Server thread/INFO]: [PowerRanks] 
+[09:59:45] [Server thread/INFO]: [PowerRanks] === ---------- LOADING ADDONS ---------- ===
+[09:59:45] [Server thread/INFO]: [PowerRanks] Loaded 0 add-on(s)!
+[09:59:45] [Server thread/INFO]: [PowerRanks] 
+[09:59:45] [Server thread/INFO]: [PowerRanks] === ----------- LOADING DATA ----------- ===
+[09:59:45] [Server thread/INFO]: [PowerRanks] Loading player & rank data
+[09:59:45] [Server thread/INFO]: [PowerRanks] 
+[09:59:45] [Server thread/INFO]: [PowerRanks] === ------- LOADING PLUGIN HOOKS ------- ===
+[09:59:45] [Server thread/INFO]: [PowerRanks] Checking for plugins to hook in to:
+[09:59:45] [Server thread/INFO]: [PowerRanks] Vault found!
+[09:59:45] [Server thread/INFO]: [PowerRanks] Enabling Vault Economy integration.
+[09:59:45] [Server thread/INFO]: [PowerRanks] Enabling Vault Permission integration.
+[09:59:45] [Server thread/INFO]: [PowerRanks] PlaceholderAPI found!
+[09:59:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: powerranks [1.10.4]
+[09:59:45] [Server thread/INFO]: [PowerRanks] 
+[09:59:45] [Server thread/INFO]: [PowerRanks]   ??????? ???????  PowerRanks v1.10.4
+[09:59:45] [Server thread/INFO]: [PowerRanks]   ???????????????? Running on Paper v1.17.1
+[09:59:45] [Server thread/INFO]: [PowerRanks]   ???????????????? Startup time: 372ms
+[09:59:45] [Server thread/INFO]: [PowerRanks]   ??????? ???????? Loaded 4 ranks and 4 players (YAML) 
+[09:59:45] [Server thread/INFO]: [PowerRanks]   ???     ???  ??? Reload detected, why do you hate yourself :C
+[09:59:45] [Server thread/INFO]: [PowerRanks] 
+[09:59:45] [Server thread/INFO]: [PowerRanks] If you'd like to donate, please visit https://ko-fi.com/svenar or https://patreon.com/svenar
+[09:59:45] [Server thread/INFO]: [PowerRanks] Checking for updates...
+[09:59:46] [Server thread/INFO]: [MultiWorld] Enabling MultiWorld v5.2.8*
+[09:59:46] [Server thread/INFO]: [MultiWorld] v5.2.8 enabled.
+[09:59:46] [Server thread/INFO]: [Medic] Enabling Medic v2.0.2
+[09:59:46] [Server thread/INFO]: ---------------------------------------------------
+[09:59:46] [Server thread/INFO]: Medic Loaded!
+[09:59:46] [Server thread/INFO]: Made by shivamCode! Link: https://dev.bukkit.org/projects/medic-1
+[09:59:46] [Server thread/INFO]: ---------------------------------------------------
+[09:59:46] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[09:59:46] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.1.1 which is not a depend, softdepend or loadbefore of this plugin.
+[09:59:46] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[09:59:46] [Server thread/INFO]: [AFKPlus] Enabling AFKPlus v3.3.13
+[09:59:46] [Server thread/INFO]: [AFKPlus] AFKPlus v.3.3.13 has been enabled!
+[09:59:46] [Server thread/INFO]: [Vanish] Enabling Vanish v1.2
+[09:59:46] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0*
+[09:59:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
+[09:59:46] [Server thread/INFO]: [PersonalVaults] Enabling PersonalVaults v1.0.0
+[09:59:46] [Server thread/INFO]: [HoloDrops] Enabling HoloDrops v2.6
+[09:59:46] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v3.6
+[09:59:46] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.server.level.EntityPlayer
+[09:59:46] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PlayerInteractManager
+[09:59:46] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PlayerInteractManager
+[09:59:46] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PacketPlayOutScoreboardTeam
+[09:59:46] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PacketPlayOutEntityEquipment
+[09:59:46] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.protocol.game.PacketPlayOutEntityEquipment
+[09:59:46] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.world.entity.Entity
+[09:59:46] [Server thread/WARN]: [ak.znetwork.znpcservers.cache.TypeCache$BaseCache] Skipping cache for net.minecraft.network.syncher.DataWatcher
+[09:59:46] [Server thread/INFO]: [ChairStairs] Enabling ChairStairs v1.1*
+[09:59:46] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.1.1
+[09:59:46] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[09:59:46] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[09:59:46] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[09:59:46] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_the_end
+[09:59:46] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[09:59:46] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_nether
+[09:59:46] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[09:59:46] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[09:59:46] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[09:59:46] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[09:59:46] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.4-Release
+[09:59:46] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[09:59:46] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[09:59:46] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[09:59:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.4-Release]
+[09:59:46] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6+1cff55f
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby_nether) TNT ignition is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lighters are PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lava fire is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Fire spread is UNRESTRICTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_nether'
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) TNT ignition is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lighters are PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lava fire is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Fire spread is UNRESTRICTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_the_end'
+[09:59:46] [Server thread/INFO]: [WorldGuard] (old-world) TNT ignition is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (old-world) Lighters are PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (old-world) Lava fire is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (old-world) Fire spread is UNRESTRICTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'old-world'
+[09:59:46] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[09:59:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[09:59:46] [Server thread/INFO]: [WorldGuard] Loading region data...
+[09:59:47] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2419)
+[09:59:47] [Server thread/INFO]: [Citizens] [STDOUT] [Citizens] Leaked by YOURNAME @ BlackSpigot.com
+[09:59:47] [Server thread/WARN]: Nag author(s): '[fullwall]' of 'Citizens' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[09:59:47] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.14.0
+[09:59:47] [Server thread/INFO]: [Shopkeepers] Citizens found: Enabling NPC shopkeepers.
+[09:59:47] [Server thread/INFO]: [Shopkeepers] Loading the data of 1 shopkeepers ...
+[09:59:47] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[09:59:47] [Server thread/INFO]: Pinont_: Reload complete.
+[09:59:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9580ms or 191 ticks behind
+[09:59:47] [Server thread/INFO]: Timings Reset
+[09:59:47] [Craft Scheduler Thread - 2 - AFKPlus/INFO]: [AFKPlus] AFKPlus file watcher started!
+[09:59:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.17.1 (756)
+[09:59:47] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[09:59:47] [Server thread/INFO]: [Citizens] Loaded 4 NPCs.
+[09:59:47] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:59:47] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:59:47] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
+[09:59:48] [Craft Scheduler Thread - 6 - AFKPlus/INFO]: [AFKPlus] There is no update available
+[09:59:54] [User Authenticator #4/INFO]: UUID of player Pinont_ is 1ef0ba4a-36e1-42ee-820e-15946cc1dac9
+[09:59:54] [Server thread/INFO]: Pinont_ joined the game
+[09:59:54] [Server thread/INFO]: Pinont_[/127.0.0.1:49687] logged in with entity id 205 at ([Lobby]309.1345121159731, 118.0, 263.6157746501109)
+[09:59:56] [User Authenticator #4/INFO]: UUID of player RichterYT is 5228ca13-f006-414b-b5f9-1c3752531499
+[09:59:56] [Server thread/INFO]: RichterYT joined the game
+[09:59:56] [Server thread/INFO]: RichterYT[/25.15.25.250:49713] logged in with entity id 206 at ([Lobby]296.641618586072, 104.1156459084712, 270.46095152585826)
+[10:00:24] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:00:24] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:00:25] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:00:25] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:00:32] [Server thread/INFO]: RichterYT issued server command: /function musicdiscs:give
+[10:00:32] [Server thread/INFO]: [RichterYT: Executed 1 commands from function 'musicdiscs:give']
+[10:00:34] [Server thread/INFO]: Pinont_ issued server command: /function musicdiscs:give
+[10:00:34] [Server thread/INFO]: [Pinont_: Executed 1 commands from function 'musicdiscs:give']
+[10:00:40] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:00:40] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:00:41] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:00:41] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:00:53] [Server thread/INFO]: RichterYT issued server command: /function musicdiscs:give
+[10:00:53] [Server thread/INFO]: [RichterYT: Executed 1 commands from function 'musicdiscs:give']
+[10:01:01] [Server thread/INFO]: RichterYT issued server command: /function musicdiscs:load
+[10:01:01] [Server thread/INFO]: [RichterYT: Executed 3 commands from function 'musicdiscs:load']
+[10:02:29] [Server thread/INFO]: Pinont_ is now AFK
+[10:02:29] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:02:48] [Server thread/INFO]: RichterYT is now AFK
+[10:02:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:02:56] [Server thread/INFO]: Pinont_ is no longer AFK
+[10:02:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:03:05] [Server thread/INFO]: Pinont_ issued server command: /function musicdiscs:give
+[10:03:05] [Server thread/INFO]: [Pinont_: Executed 1 commands from function 'musicdiscs:give']
+[10:03:13] [Server thread/INFO]: Pinont_ issued server command: /function musicdiscs:load
+[10:03:13] [Server thread/INFO]: [Pinont_: Executed 3 commands from function 'musicdiscs:load']
+[10:03:40] [Server thread/INFO]: RichterYT is no longer AFK
+[10:03:40] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:04:01] [Server thread/INFO]: RichterYT issued server command: /sit
+[10:04:03] [Server thread/INFO]: RichterYT issued server command: /sit
+[10:04:04] [Server thread/INFO]: RichterYT issued server command: /size
+[10:04:06] [Server thread/INFO]: RichterYT issued server command: /size 1
+[10:04:37] [Server thread/WARN]: [PowerRanks] No Vault compatible economy plugin found! Giving up.
+[10:05:19] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:05:19] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:05:21] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:05:21] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:05:26] [Server thread/INFO]: RichterYT issued server command: /time set day
+[10:05:26] [Server thread/INFO]: [RichterYT: Set the time to 1000]
+[10:05:35] [Server thread/INFO]: RichterYT issued server command: /npc list
+[10:05:36] [Server thread/INFO]: RichterYT issued server command: /npc list
+[10:05:41] [Server thread/INFO]: RichterYT issued server command: /npc id
+[10:05:48] [Server thread/INFO]: RichterYT issued server command: /npc id
+[10:05:50] [Server thread/INFO]: RichterYT issued server command: /npc id 1
+[10:05:59] [Server thread/INFO]: RichterYT issued server command: /npc spawn 0
+[10:06:05] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:06:07] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:06:07] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:06:08] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:06:08] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:06:09] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:06:25] [Server thread/INFO]: RichterYT issued server command: /npc remove
+[10:06:30] [Server thread/INFO]: 1 is now AFK
+[10:06:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:06:31] [Server thread/INFO]: Pinont_ issued server command: /function musicdiscs:uninstall
+[10:06:31] [Server thread/INFO]: [Pinont_: Executed 4 commands from function 'musicdiscs:uninstall']
+[10:06:41] [Server thread/INFO]: RichterYT issued server command: /npc
+[10:06:43] [Server thread/INFO]: RichterYT issued server command: /npc list
+[10:06:44] [Server thread/INFO]: RichterYT issued server command: /afk
+[10:06:44] [Server thread/INFO]: RichterYT is now AFK
+[10:06:44] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:06:45] [Server thread/INFO]: RichterYT issued server command: /afk
+[10:06:45] [Server thread/INFO]: RichterYT is no longer AFK
+[10:06:45] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:06:46] [Server thread/INFO]: RichterYT issued server command: /afk Pinont_
+[10:06:46] [Server thread/INFO]: Pinont_ is now AFK
+[10:06:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:06:46] [Server thread/INFO]: Pinont_ is no longer AFK
+[10:06:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:07:25] [Server thread/INFO]: RichterYT issued server command: /tellraw @a {"text":"Herobrine joined the game","color":"yellow"}
+[10:07:41] [Server thread/INFO]: RichterYT issued server command: /tellraw @a {"text":"Herobrine left the game","color":"yellow"}
+[10:07:59] [Server thread/INFO]: RichterYT issued server command: /npc tp
+[10:08:00] [Server thread/INFO]: RichterYT issued server command: /npc tp 15
+[10:08:02] [Server thread/INFO]: RichterYT issued server command: /npc tp 16
+[10:08:16] [Server thread/INFO]: RichterYT issued server command: /npc rename &bPinont_
+[10:08:22] [Server thread/INFO]: RichterYT issued server command: /npc skin Pinont_
+[10:08:31] [Server thread/INFO]: Invalid chat component: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+[10:08:31] [Server thread/INFO]: ...e 1 title &l&4You're AFK<--[HERE]
+[10:08:36] [Server thread/INFO]: RichterYT issued server command: /npc skin Herobrine
+[10:08:46] [Server thread/INFO]: RichterYT issued server command: /npc skin Pinont_
+[10:09:00] [Server thread/INFO]: RichterYT issued server command: /function musicdiscs:uninstall
+[10:09:00] [Server thread/INFO]: [RichterYT: Executed 4 commands from function 'musicdiscs:uninstall']
+[10:09:02] [Server thread/INFO]: 1 is now AFK
+[10:09:02] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:09:29] [Server thread/INFO]: RichterYT issued server command: //set spruce_planks
+[10:09:33] [Server thread/INFO]: RichterYT issued server command: //set spruce_planks
+[10:09:41] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:09:41] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:09:44] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:09:44] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:09:47] [Server thread/INFO]: RichterYT issued server command: /afk Pinont_
+[10:09:47] [Server thread/INFO]: Pinont_ is now AFK
+[10:09:47] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:09:48] [Server thread/INFO]: RichterYT issued server command: /afk Pinont_
+[10:09:48] [Server thread/INFO]: Pinont_ is no longer AFK
+[10:09:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:09:52] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:09:52] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:09:56] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:09:56] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:10:42] [Async Chat Thread - #3/INFO]: Lobby ADMIN RichterYT: vault
+[10:11:03] [Server thread/INFO]: Invalid chat component: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+[10:11:03] [Server thread/INFO]: ...e 1 title &l&4You're AFK<--[HERE]
+[10:11:19] [Server thread/INFO]: Pinont_ is now AFK
+[10:11:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:11:28] [Server thread/INFO]: RichterYT issued server command: /fl
+[10:11:33] [Server thread/INFO]: Pinont_ is no longer AFK
+[10:11:33] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:11:34] [Server thread/INFO]: 1 is now AFK
+[10:11:34] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:11:37] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:11:37] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:11:39] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:11:39] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:11:47] [Server thread/INFO]: RichterYT issued server command: /kick 1
+[10:11:47] [Server thread/INFO]: 1 lost connection: Kicked by an operator
+[10:11:47] [Server thread/INFO]: [RichterYT: Kicked 1: Kicked by an operator]
+[10:11:47] [Server thread/FATAL]: Error executing task on Server
+java.lang.ClassCastException: class net.citizensnpcs.nms.v1_17_R1.util.NMSImpl$3 cannot be cast to class java.net.InetSocketAddress (net.citizensnpcs.nms.v1_17_R1.util.NMSImpl$3 is in unnamed module of loader 'Citizens-2.0.29ALPHA.jar' @4a573b30; java.net.InetSocketAddress is in module java.base of loader 'bootstrap')
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:752) ~[app:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[patched_1.17.1.jar:git-Paper-408]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:149) ~[app:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[app:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1426) ~[patched_1.17.1.jar:git-Paper-408]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:192) ~[patched_1.17.1.jar:git-Paper-408]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[app:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1404) ~[patched_1.17.1.jar:git-Paper-408]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1397) ~[patched_1.17.1.jar:git-Paper-408]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[app:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1475) ~[patched_1.17.1.jar:git-Paper-408]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1282) ~[patched_1.17.1.jar:git-Paper-408]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[patched_1.17.1.jar:git-Paper-408]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[10:11:50] [Server thread/INFO]: RichterYT issued server command: /kick 2
+[10:11:55] [Server thread/INFO]: RichterYT issued server command: /ban 1
+[10:12:01] [Server thread/INFO]: Pinont_ issued server command: /list
+[10:12:01] [Server thread/INFO]: RichterYT issued server command: /list
+[10:12:25] [Server thread/INFO]: Pinont_ issued server command: /function musicdiscs:give
+[10:12:25] [Server thread/INFO]: [Pinont_: Executed 1 commands from function 'musicdiscs:give']
+[10:12:52] [Server thread/INFO]: RichterYT issued server command: /gamemode survival
+[10:12:52] [Server thread/INFO]: [RichterYT: Set own game mode to Survival Mode]
+[10:12:53] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:12:53] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:12:54] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:12:54] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:12:54] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:12:54] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:12:56] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:12:56] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:13:20] [Server thread/INFO]: RichterYT issued server command: //copy
+[10:13:24] [Server thread/INFO]: RichterYT issued server command: //paste
+[10:13:36] [Server thread/INFO]: Pinont_ issued server command: /clear
+[10:13:36] [Server thread/INFO]: [Pinont_: Removed 11 items from player Pinont_]
+[10:13:49] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:13:49] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:13:50] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:13:50] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:13:52] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:13:52] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:13:53] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:13:53] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:14:39] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:14:39] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:14:40] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:14:40] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:14:41] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:14:41] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:14:41] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:14:41] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:14:46] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:14:46] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:14:48] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:14:48] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:14:48] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:14:48] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:14:50] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:14:50] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:14:54] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:14:54] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:14:55] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:14:55] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:15:17] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:15:17] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:15:18] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:15:18] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:15:49] [Server thread/INFO]: Pinont_ issued server command: /function musicdiscs:uninstall
+[10:15:49] [Server thread/INFO]: [Pinont_: Executed 4 commands from function 'musicdiscs:uninstall']
+[10:16:33] [Server thread/INFO]: Pinont_ issued server command: /datapack
+[10:16:37] [Server thread/INFO]: Pinont_ issued server command: /datapack list
+[10:16:38] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:16:38] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:16:42] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:16:42] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:18:37] [Server thread/INFO]: RichterYT issued server command: /rg
+[10:18:51] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:18:51] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:18:55] [Async Chat Thread - #4/INFO]: Lobby ADMIN RichterYT: ./rp
+[10:18:55] [Server thread/INFO]: RichterYT issued server command: /rp
+[10:18:57] [Server thread/INFO]: RichterYT issued server command: /rg
+[10:18:57] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:18:57] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:19:05] [Async Chat Thread - #4/INFO]: Lobby OWNER Pinont_: ./rg
+[10:19:13] [Server thread/INFO]: Pinont_ issued server command: /rg
+[10:19:49] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[10:19:49] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[10:20:39] [Async Chat Thread - #5/INFO]: Lobby ADMIN RichterYT: mumbo link?
+[10:21:37] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:21:37] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:21:45] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:21:45] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:21:54] [Server thread/INFO]: RichterYT issued server command: /npc create Discord
+[10:22:24] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:22:24] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:22:26] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:22:26] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:22:40] [Server thread/INFO]: RichterYT issued server command: /npc rename &bDiscord
+[10:24:07] [Server thread/INFO]: Pinont_ is now AFK
+[10:24:07] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:24:10] [Server thread/INFO]: Pinont_ is no longer AFK
+[10:24:10] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:24:13] [Server thread/INFO]: RichterYT is now AFK
+[10:24:13] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:24:35] [Server thread/INFO]: RichterYT issued server command: /npc skin Discoord
+[10:24:35] [Server thread/INFO]: RichterYT is no longer AFK
+[10:24:35] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:24:42] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:24:46] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:24:48] [Server thread/INFO]: RichterYT issued server command: /npc tphere
+[10:25:11] [Server thread/INFO]: RichterYT has made the advancement [Isn't It Iron Pick]
+[10:25:24] [Server thread/INFO]: RichterYT issued server command: /br sphere gray_terracotta 1
+[10:25:34] [Server thread/INFO]: RichterYT issued server command: /mask brown_terracotta
+[10:25:52] [Server thread/INFO]: RichterYT issued server command: /br sphere dark_oak_planks 1
+[10:26:04] [Server thread/INFO]: RichterYT issued server command: //undo
+[10:26:09] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:26:09] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:26:13] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:26:13] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:26:39] [Async Chat Thread - #6/INFO]: Lobby ADMIN RichterYT: terhcir
+[10:26:43] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:26:43] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:26:44] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:26:44] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:27:40] [Server thread/INFO]: RichterYT issued server command: //copy
+[10:27:47] [Server thread/INFO]: RichterYT issued server command: //paste
+[10:27:56] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:27:56] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:28:05] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:28:05] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:28:57] [Server thread/INFO]: RichterYT issued server command: //copy
+[10:29:01] [Server thread/INFO]: RichterYT issued server command: //paste
+[10:29:32] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[10:29:32] [Server thread/INFO]: [Pinont_: Teleported Pinont_ to RichterYT]
+[10:29:32] [Server thread/WARN]: Pinont_ moved too quickly! 12.735067643302045,4.166109260938214,4.814282671410808
+[10:30:00] [Server thread/INFO]: RichterYT issued server command: //copy
+[10:30:05] [Server thread/INFO]: RichterYT issued server command: //paste
+[10:30:10] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:30:10] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:30:22] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:30:22] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:31:29] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:hh,Color:15},{Pattern:cs,Color:0},{Pattern:ts,Color:15},{Pattern:ls,Color:15},{Pattern:drs,Color:15},{Pattern:bo,Color:0}]}} 1
+[10:31:29] [Server thread/INFO]: [RichterYT: Gave 1 [White Banner] to RichterYT]
+[10:31:36] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:cs,Color:15},{Pattern:ts,Color:15},{Pattern:bs,Color:15},{Pattern:bo,Color:0}]}} 1
+[10:31:36] [Server thread/INFO]: [RichterYT: Gave 1 [White Banner] to RichterYT]
+[10:31:44] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:ts,Color:15},{Pattern:bs,Color:15},{Pattern:rs,Color:15},{Pattern:ms,Color:0},{Pattern:ls,Color:15},{Pattern:bo,Color:0}]}} 1
+[10:31:44] [Server thread/INFO]: [RichterYT: Gave 1 [White Banner] to RichterYT]
+[10:31:49] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:black_banner{BlockEntityTag:{Patterns:[{Pattern:ts,Color:0},{Pattern:bs,Color:0},{Pattern:ls,Color:15},{Pattern:rs,Color:15},{Pattern:bo,Color:0}]}} 1
+[10:31:49] [Server thread/INFO]: [RichterYT: Gave 1 [Black Banner] to RichterYT]
+[10:31:57] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:ts,Color:15},{Pattern:bs,Color:15},{Pattern:rs,Color:15},{Pattern:ms,Color:0},{Pattern:ls,Color:15},{Pattern:bo,Color:0}]}} 1
+[10:31:57] [Server thread/INFO]: [RichterYT: Gave 1 [White Banner] to RichterYT]
+[10:32:06] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:rs,Color:15},{Pattern:ls,Color:15},{Pattern:ms,Color:15},{Pattern:ts,Color:15},{Pattern:bo,Color:0}]}} 1
+[10:32:06] [Server thread/INFO]: [RichterYT: Gave 1 [White Banner] to RichterYT]
+[10:32:11] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:ms,Color:15},{Pattern:rs,Color:0},{Pattern:ts,Color:15},{Pattern:ls,Color:15},{Pattern:bo,Color:0}]}} 1
+[10:32:11] [Server thread/INFO]: [RichterYT: Gave 1 [White Banner] to RichterYT]
+[10:32:16] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:white_banner{BlockEntityTag:{Patterns:[{Pattern:ls,Color:15},{Pattern:ts,Color:15},{Pattern:ms,Color:15},{Pattern:bs,Color:15},{Pattern:bo,Color:0}]}} 1
+[10:32:16] [Server thread/INFO]: [RichterYT: Gave 1 [White Banner] to RichterYT]
+[10:32:30] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:32:30] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:32:31] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:32:31] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:32:40] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:32:40] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:32:46] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:32:46] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:33:19] [Server thread/INFO]: RichterYT issued server command: //copy
+[10:33:23] [Server thread/INFO]: RichterYT issued server command: //paste
+[10:33:26] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:33:26] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:33:49] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:33:49] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:34:03] [Server thread/INFO]: Pinont_ is now AFK
+[10:34:03] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:34:17] [Server thread/INFO]: RichterYT issued server command: //replace light_gray stone_bricks,andesite,cobblestone
+[10:34:26] [Server thread/INFO]: RichterYT issued server command: //replace light_gray stone_bricks,andesite,cobblestone
+[10:34:30] [Server thread/INFO]: RichterYT issued server command: //undo
+[10:34:30] [Server thread/INFO]: RichterYT issued server command: //undo
+[10:34:31] [Server thread/INFO]: RichterYT issued server command: //replace light_gray stone_bricks,andesite,cobblestone
+[10:34:44] [Server thread/INFO]: Pinont_ is no longer AFK
+[10:34:44] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[10:34:46] [Server thread/INFO]: Pinont_ issued server command: /give @p black_banner{BlockEntityTag:{Patterns:[{Pattern:"glb",Color:3}]}} 1
+[10:34:46] [Server thread/INFO]: [Pinont_: Gave 1 [Black Banner] to Pinont_]
+[10:35:06] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT Pinont_
+[10:35:06] [Server thread/INFO]: [Pinont_: Teleported RichterYT to Pinont_]
+[10:35:32] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:35:32] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:35:33] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:35:33] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:35:34] [Server thread/INFO]: Pinont_ issued server command: /clea
+[10:35:36] [Server thread/INFO]: Pinont_ issued server command: /clear
+[10:35:36] [Server thread/INFO]: [Pinont_: Removed 31 items from player Pinont_]
+[10:35:48] [Server thread/INFO]: RichterYT issued server command: //replace light_gray 50%brown_concrete_powder,40%barrel,10%dark_oak_planks
+[10:35:51] [Server thread/INFO]: RichterYT issued server command: //undo
+[10:36:10] [Server thread/INFO]: RichterYT issued server command: //replace light_gray 50%brown_concrete_powder,40%spruce_planks,10%barrel[facing=up]
+[10:36:20] [Server thread/INFO]: RichterYT issued server command: /tp @a @p
+[10:36:20] [Server thread/INFO]: [RichterYT: Teleported 2 entities to RichterYT]
+[10:36:20] [Server thread/WARN]: Pinont_ moved too quickly! 9.875716337660663,3.0966720560125935,-13.462796857706337
+[10:36:46] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:36:46] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:36:50] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:36:50] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:36:52] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[10:36:52] [Server thread/INFO]: [Pinont_: Teleported Pinont_ to RichterYT]
+[10:36:52] [Server thread/WARN]: Pinont_ moved too quickly! -20.564885293934196,1.0,2.28668867364712
+[10:36:52] [Server thread/WARN]: Pinont_ moved too quickly! -20.564885293934196,1.0,2.28668867364712
+[10:37:22] [Server thread/INFO]: RichterYT lost connection: Disconnected
+[10:37:22] [Server thread/INFO]: RichterYT left the game
+[10:37:34] [User Authenticator #5/INFO]: UUID of player RichterYT is 5228ca13-f006-414b-b5f9-1c3752531499
+[10:37:35] [Server thread/INFO]: RichterYT joined the game
+[10:37:35] [Server thread/INFO]: RichterYT[/25.15.25.250:58475] logged in with entity id 350 at ([Lobby]290.08966792696305, 102.0, 271.64515228116386)
+[10:37:46] [Async Chat Thread - #7/INFO]: Lobby OWNER Pinont_: Pinont.net :>
+[10:38:07] [Async Chat Thread - #7/INFO]: Lobby OWNER Pinont_: https://discord.gg/TndxhVW63s
+[10:38:52] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT Pinont_
+[10:38:52] [Server thread/INFO]: [Pinont_: Teleported RichterYT to Pinont_]
+[10:39:10] [Server thread/INFO]: RichterYT issued server command: /npc script --add https://discord.gg/sgvNY9fBCX
+[10:40:05] [Server thread/INFO]: RichterYT issued server command: /npc speak --target https://discord.gg/sgvNY9fBCX
+[10:40:18] [Server thread/INFO]: RichterYT issued server command: /npc speak https://discord.gg/sgvNY9fBCX --target
+[10:40:25] [Server thread/INFO]: RichterYT issued server command: /npc speak https://discord.gg/sgvNY9fBCX --target
+[10:40:30] [Server thread/INFO]: RichterYT issued server command: /npc speak https://discord.gg/sgvNY9fBCX --target p
+[10:41:27] [Server thread/INFO]: RichterYT issued server command: /npc text
+[10:41:48] [Server thread/INFO]: RichterYT issued server command: /npc talk
+[10:41:53] [Server thread/INFO]: RichterYT issued server command: /npc text
+[10:42:08] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:42:08] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:42:10] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:42:10] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:43:00] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:43:00] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:43:01] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:43:01] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:44:00] [Server thread/INFO]: RichterYT issued server command: /npc rename &bDiscord&a
+[10:44:15] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:44:15] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:44:18] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:44:18] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:44:45] [Server thread/INFO]: RichterYT issued server command: /gamerule randomTickSpeed 1000
+[10:44:45] [Server thread/INFO]: [RichterYT: Gamerule randomTickSpeed is now set to: 1000]
+[10:45:11] [Server thread/INFO]: RichterYT issued server command: /gamerule randomTickSpeed 3
+[10:45:11] [Server thread/INFO]: [RichterYT: Gamerule randomTickSpeed is now set to: 3]
+[10:45:29] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:45:29] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:45:33] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:45:33] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:45:50] [Server thread/INFO]: RichterYT issued server command: /gamerule randomTickSpeed 1000
+[10:45:50] [Server thread/INFO]: [RichterYT: Gamerule randomTickSpeed is now set to: 1000]
+[10:46:02] [Server thread/INFO]: RichterYT issued server command: /give @p light
+[10:46:02] [Server thread/INFO]: [RichterYT: Gave 1 [Light] to RichterYT]
+[10:46:25] [Async Chat Thread - #9/INFO]: Lobby ADMIN RichterYT: magic
+[10:46:28] [Server thread/INFO]: RichterYT issued server command: /gamerule randomTickSpeed 3
+[10:46:28] [Server thread/INFO]: [RichterYT: Gamerule randomTickSpeed is now set to: 3]
+[10:47:10] [Server thread/INFO]: RichterYT issued server command: /gamerule doFireTick false
+[10:47:10] [Server thread/INFO]: [RichterYT: Gamerule doFireTick is now set to: false]
+[10:47:54] [Server thread/INFO]: RichterYT issued server command: //set spruce_slab
+[10:47:58] [Server thread/INFO]: RichterYT issued server command: //set spruce_slab[type=top]
+[10:48:17] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:48:17] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:48:20] [Server thread/INFO]: Pinont_ issued server command: /clear
+[10:48:20] [Server thread/INFO]: [Pinont_: Removed 14 items from player Pinont_]
+[10:48:21] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:48:21] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:50:25] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:50:25] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:50:26] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:50:26] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:50:27] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:50:27] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:50:30] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:50:30] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:51:01] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:51:01] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:51:03] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:51:03] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:51:38] [Server thread/INFO]: RichterYT issued server command: /gamemode survival
+[10:51:38] [Server thread/INFO]: [RichterYT: Set own game mode to Survival Mode]
+[10:51:41] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:51:41] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:53:44] [Server thread/INFO]: RichterYT issued server command: /npc create Survival
+[10:54:05] [Server thread/INFO]: RichterYT issued server command: /effect give @p minecraft:slowness 1
+[10:54:05] [Server thread/INFO]: [RichterYT: Applied effect Slowness to RichterYT]
+[10:54:06] [Server thread/INFO]: RichterYT issued server command: /effect give @p minecraft:slowness 1 1
+[10:54:06] [Server thread/INFO]: [RichterYT: Applied effect Slowness to RichterYT]
+[10:54:11] [Server thread/INFO]: RichterYT issued server command: /effect give @p minecraft:slowness 10000 1 true
+[10:54:11] [Server thread/INFO]: [RichterYT: Applied effect Slowness to RichterYT]
+[10:54:31] [Server thread/INFO]: RichterYT issued server command: /effect give @p minecraft:slowness 10000 2 true
+[10:54:31] [Server thread/INFO]: [RichterYT: Applied effect Slowness to RichterYT]
+[10:55:05] [Server thread/INFO]: RichterYT issued server command: /effect give @p minecraft:slowness 10000
+[10:55:05] [Server thread/INFO]: [RichterYT: Applied effect Slowness to RichterYT]
+[10:55:08] [Server thread/INFO]: RichterYT issued server command: /effect give @p minecraft:slowness 1 0
+[10:55:10] [Server thread/INFO]: RichterYT issued server command: /effect give @p minecraft:slowness 0 1
+[10:55:10] [Server thread/INFO]: RichterYT issued server command: /effect give @p minecraft:slowness 0
+[10:55:13] [Server thread/INFO]: RichterYT issued server command: /effect clear
+[10:55:13] [Server thread/INFO]: [RichterYT: Removed every effect from RichterYT]
+[10:55:23] [Server thread/INFO]: RichterYT issued server command: /npc path
+[10:55:26] [Server thread/INFO]: RichterYT issued server command: /npc path clear
+[10:56:20] [Server thread/INFO]: RichterYT issued server command: /gamemode survival
+[10:56:20] [Server thread/INFO]: [RichterYT: Set own game mode to Survival Mode]
+[10:56:20] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:56:20] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:56:21] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:56:21] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:56:22] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:56:22] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:56:24] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT Pinont_
+[10:56:24] [Server thread/INFO]: [Pinont_: Teleported RichterYT to Pinont_]
+[10:56:59] [Server thread/INFO]: RichterYT issued server command: /npc path
+[10:57:05] [Server thread/INFO]: RichterYT issued server command: /npc speed 10
+[10:57:15] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:57:15] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:57:17] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:57:17] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:57:17] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:57:17] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:57:31] [Server thread/INFO]: Pinont_ issued server command: /npc sel pinont_
+[10:57:40] [Server thread/INFO]: Pinont_ issued server command: /npc speed 1
+[10:57:42] [Server thread/INFO]: RichterYT issued server command: /npc speed 1
+[10:57:44] [Server thread/INFO]: RichterYT issued server command: /npc speed 1
+[10:57:47] [Server thread/INFO]: RichterYT issued server command: /npc speed 15
+[10:58:12] [Server thread/INFO]: Pinont_ issued server command: /npc sel Pinont_
+[10:58:13] [Server thread/INFO]: RichterYT issued server command: /npc speed 1
+[10:58:14] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:58:14] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[10:58:26] [Server thread/INFO]: Pinont_ issued server command: /npc speed 10
+[10:58:50] [Server thread/INFO]: RichterYT issued server command: /npc speed 1?
+[10:58:50] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "1?"
+[10:58:50] [Server thread/WARN]: 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+[10:58:50] [Server thread/WARN]: 	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+[10:58:50] [Server thread/WARN]: 	at java.base/java.lang.Double.parseDouble(Double.java:651)
+[10:58:50] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandContext.getDouble(CommandContext.java:129)
+[10:58:50] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.commands.NPCCommands.speed(NPCCommands.java:2292)
+[10:58:50] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:58:50] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[10:58:50] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:58:50] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[10:58:50] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.executeMethod(CommandManager.java:159)
+[10:58:50] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.execute(CommandManager.java:91)
+[10:58:50] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.executeSafe(CommandManager.java:187)
+[10:58:50] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.Citizens.onCommand(Citizens.java:277)
+[10:58:50] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[10:58:50] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[10:58:50] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:869)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2262)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2073)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2054)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:6)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$1(PlayerConnectionUtils.java:56)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:149)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(IAsyncTaskHandlerReentrant.java:23)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:1426)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:192)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:122)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1404)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1397)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:132)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1375)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1286)
+[10:58:50] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[10:58:50] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[10:58:52] [Server thread/INFO]: RichterYT issued server command: /npc speed 15
+[10:58:55] [Server thread/INFO]: RichterYT issued server command: /npc speed 2
+[10:59:00] [Server thread/INFO]: RichterYT issued server command: /npc speed 2
+[10:59:02] [Server thread/INFO]: RichterYT issued server command: /npc speed 1
+[10:59:17] [Server thread/INFO]: RichterYT issued server command: /npc vulnerable
+[10:59:20] [Server thread/INFO]: RichterYT issued server command: /npc vulnerable
+[10:59:27] [Server thread/INFO]: Pinont_ issued server command: /clear
+[10:59:28] [Server thread/INFO]: [Pinont_: Removed 10 items from player Pinont_]
+[10:59:52] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[10:59:52] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[10:59:53] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[10:59:53] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:00:02] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:00:02] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:00:03] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:00:03] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:01:08] [Server thread/INFO]: Pinont_ issued server command: /mw list
+[11:01:20] [Server thread/INFO]: Pinont_ issued server command: /mw create KitPVP
+[11:01:20] [Server thread/INFO]: [MultiWorld] Pinont_: Creating new world KitPVP. Generator: Normal:. Seed: 1611749314114914734
+[11:01:27] [Server thread/INFO]: Pinont_ issued server command: /mw load KitPVP
+[11:01:27] [Server thread/INFO]: [MultiWorld] Pinont_: Starting to load world KitPVP, expect some lagg!
+[11:01:33] [Server thread/INFO]: Preparing start region for dimension minecraft:kitpvp
+[11:01:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:01:33] [Server thread/INFO]: Time elapsed: 355 ms
+[11:01:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[11:01:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[11:01:33] [Server thread/INFO]: [WorldGuard] (KitPVP) TNT ignition is PERMITTED.
+[11:01:33] [Server thread/INFO]: [WorldGuard] (KitPVP) Lighters are PERMITTED.
+[11:01:33] [Server thread/INFO]: [WorldGuard] (KitPVP) Lava fire is PERMITTED.
+[11:01:33] [Server thread/INFO]: [WorldGuard] (KitPVP) Fire spread is UNRESTRICTED.
+[11:01:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'KitPVP'
+[11:01:33] [Server thread/INFO]: [MultiWorld] Pinont_: World KitPVP loaded succesfully!
+[11:01:34] [Server thread/INFO]: Pinont_ issued server command: /mw goto KitPVP
+[11:01:41] [Server thread/INFO]: [MultiWorld] Pinont_: Moved player Pinont_ to world KitPVP
+[11:01:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7557ms or 151 ticks behind
+[11:01:45] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:01:45] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:01:52] [Server thread/INFO]: RichterYT issued server command: /gamemode survival Pinont_
+[11:01:52] [Server thread/INFO]: [RichterYT: Set Pinont_'s game mode to Survival Mode]
+[11:01:58] [Server thread/INFO]: Pinont_ was slain by RichterYT
+[11:02:02] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:02:02] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:02:03] [Server thread/INFO]: RichterYT issued server command: /gamemode adventure
+[11:02:03] [Server thread/INFO]: [RichterYT: Set own game mode to Adventure Mode]
+[11:02:03] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[11:02:03] [Server thread/INFO]: [Pinont_: Teleported Pinont_ to RichterYT]
+[11:02:05] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:02:05] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:02:06] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:02:06] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:02:06] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:02:06] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:02:09] [Server thread/INFO]: RichterYT issued server command: /mw goto KitPVP
+[11:02:09] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world KitPVP
+[11:02:11] [Server thread/INFO]: RichterYT issued server command: /mw goto Lobby
+[11:02:11] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world Lobby
+[11:02:37] [Server thread/INFO]: [MultiWorld] CONSOLE: Saved automaticly
+[11:03:06] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_ @p
+[11:03:06] [Server thread/INFO]: [RichterYT: Teleported Pinont_ to RichterYT]
+[11:03:09] [Server thread/INFO]: Pinont_ issued server command: /gamemode creative
+[11:03:09] [Server thread/INFO]: [Pinont_: Set own game mode to Creative Mode]
+[11:03:09] [Server thread/INFO]: RichterYT issued server command: /mw delete KitPVP
+[11:03:09] [Server thread/INFO]: [MultiWorld] RichterYT: KitPVP: Unloading...
+[11:03:09] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[11:03:09] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[11:03:09] [Server thread/WARN]: [Multiverse-Core] /mv import KitPVP NORMAL
+[11:03:12] [Server thread/INFO]: [MultiWorld] RichterYT: KitPVP: Unloaded!
+[11:03:12] [Server thread/INFO]: [MultiWorld] RichterYT: Starting to remove KitPVP from the multiworld database
+[11:03:12] [Server thread/INFO]: [MultiWorld] RichterYT: World KitPVP has been deleted from the multiworld database.
+[11:03:18] [Server thread/INFO]: RichterYT issued server command: /mw list
+[11:03:32] [Server thread/INFO]: Pinont_ issued server command: /mw create kitpvp Empty
+[11:03:32] [Server thread/INFO]: [MultiWorld] Pinont_: Creating new world kitpvp. Generator: Empty:. Seed: 8317452266242859990
+[11:03:47] [Server thread/INFO]: Pinont_ issued server command: /mw load kitpvp
+[11:03:47] [Server thread/INFO]: [MultiWorld] Pinont_: Starting to load world kitpvp, expect some lagg!
+[11:03:47] [Server thread/INFO]: Preparing start region for dimension minecraft:kitpvp
+[11:03:47] [Server thread/INFO]: Preparing spawn area: 0%
+[11:03:47] [Server thread/INFO]: Time elapsed: 65 ms
+[11:03:47] [Server thread/INFO]: [WorldGuard] (kitpvp) TNT ignition is PERMITTED.
+[11:03:47] [Server thread/INFO]: [WorldGuard] (kitpvp) Lighters are PERMITTED.
+[11:03:47] [Server thread/INFO]: [WorldGuard] (kitpvp) Lava fire is PERMITTED.
+[11:03:47] [Server thread/INFO]: [WorldGuard] (kitpvp) Fire spread is UNRESTRICTED.
+[11:03:47] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'kitpvp'
+[11:03:47] [Server thread/INFO]: [MultiWorld] Pinont_: World kitpvp loaded succesfully!
+[11:03:52] [Server thread/INFO]: Pinont_ issued server command: /mw goto kitpvp
+[11:03:52] [Server thread/INFO]: [MultiWorld] Pinont_: Moved player Pinont_ to world kitpvp
+[11:03:54] [Async Chat Thread - #11/INFO]: Lobby ADMIN RichterYT: Itdragclick
+[11:04:00] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:04:00] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:04:10] [Server thread/INFO]: [MultiWorld] CONSOLE: Saved automaticly
+[11:04:55] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:04:55] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:05:16] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT Pinont_
+[11:05:16] [Server thread/INFO]: [Pinont_: Teleported RichterYT to Pinont_]
+[11:05:22] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:26] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:28] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:29] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:30] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:30] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:34] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:35] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:36] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:40] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:42] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:43] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:43] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:44] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:45] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:45] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:46] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:46] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:47] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:47] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:48] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:49] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:49] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:50] [Server thread/INFO]: RichterYT issued server command: //fill obsidian 5
+[11:05:58] [Server thread/INFO]: RichterYT issued server command: //pos1
+[11:06:03] [Server thread/INFO]: RichterYT issued server command: //pos2
+[11:06:06] [Server thread/INFO]: RichterYT issued server command: //set tnt
+[11:06:08] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:06:08] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:06:16] [Server thread/INFO]: Pinont_ issued server command: /gamemode spectator
+[11:06:16] [Server thread/INFO]: [Pinont_: Set own game mode to Spectator Mode]
+[11:06:17] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:06:17] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:06:22] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:22] [Server thread/INFO]: Pinont_ issued server command: /gamemode creative
+[11:06:22] [Server thread/INFO]: [Pinont_: Set own game mode to Creative Mode]
+[11:06:23] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:24] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:24] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:24] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:24] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:25] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:25] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:26] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:26] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:26] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:27] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:27] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:27] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:28] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:28] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:06:29] [Server thread/INFO]: Pinont_ issued server command: //redo
+[11:06:54] [Server thread/INFO]: RichterYT issued server command: /mw goto kitpvp
+[11:06:54] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world kitpvp
+[11:06:55] [Server thread/INFO]: RichterYT issued server command: /mw goto Lobby
+[11:06:55] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world Lobby
+[11:07:01] [Server thread/INFO]: Pinont_ issued server command: /mw create kitpvp-1 Empty
+[11:07:01] [Server thread/INFO]: [MultiWorld] Pinont_: Creating new world kitpvp-1. Generator: Empty:. Seed: -2384331879545941633
+[11:07:11] [Server thread/INFO]: Pinont_ issued server command: /mw load kitpvp-1
+[11:07:11] [Server thread/INFO]: [MultiWorld] Pinont_: Starting to load world kitpvp-1, expect some lagg!
+[11:07:15] [Server thread/INFO]: Preparing start region for dimension minecraft:kitpvp-1
+[11:07:15] [Server thread/INFO]: Time elapsed: 24 ms
+[11:07:15] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[11:07:15] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[11:07:15] [Server thread/INFO]: [WorldGuard] (kitpvp-1) TNT ignition is PERMITTED.
+[11:07:15] [Server thread/INFO]: [WorldGuard] (kitpvp-1) Lighters are PERMITTED.
+[11:07:15] [Server thread/INFO]: [WorldGuard] (kitpvp-1) Lava fire is PERMITTED.
+[11:07:15] [Server thread/INFO]: [WorldGuard] (kitpvp-1) Fire spread is UNRESTRICTED.
+[11:07:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'kitpvp-1'
+[11:07:15] [Server thread/INFO]: [MultiWorld] Pinont_: World kitpvp-1 loaded succesfully!
+[11:07:15] [Async Chat Thread - #12/INFO]: Lobby ADMIN RichterYT: t
+[11:07:17] [Server thread/INFO]: Pinont_ issued server command: /mw goto kitpvp-1
+[11:07:17] [Server thread/INFO]: [MultiWorld] Pinont_: Moved player Pinont_ to world kitpvp-1
+[11:07:18] [Server thread/INFO]: RichterYT issued server command: /mw goto kitpvp-1
+[11:07:18] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world kitpvp-1
+[11:07:24] [Server thread/INFO]: RichterYT issued server command: /setblock 0 100 0
+[11:07:26] [Server thread/INFO]: RichterYT issued server command: /setblock 0 100 0 glass
+[11:07:26] [Server thread/INFO]: [RichterYT: Changed the block at 0, 100, 0]
+[11:07:30] [Server thread/INFO]: Pinont_ issued server command: /mw delete kitpvp
+[11:07:30] [Server thread/INFO]: [MultiWorld] Pinont_: kitpvp: Unloading...
+[11:07:30] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[11:07:30] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[11:07:30] [Server thread/WARN]: [Multiverse-Core] /mv import kitpvp NORMAL
+[11:07:31] [Server thread/INFO]: [MultiWorld] Pinont_: kitpvp: Unloaded!
+[11:07:31] [Server thread/INFO]: [MultiWorld] Pinont_: Starting to remove kitpvp from the multiworld database
+[11:07:31] [Server thread/INFO]: [MultiWorld] Pinont_: World kitpvp has been deleted from the multiworld database.
+[11:07:35] [Server thread/INFO]: Pinont_ issued server command: //wand
+[11:07:39] [Server thread/INFO]: RichterYT issued server command: /tp 0 100 0
+[11:07:39] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 0.500000, 100.000000, 0.500000]
+[11:08:01] [Server thread/INFO]: Pinont_ issued server command: //set tnt
+[11:08:01] [Server thread/INFO]: RichterYT issued server command: //cyl bedrock 100
+[11:08:05] [Server thread/INFO]: [MultiWorld] CONSOLE: Saved automaticly
+[11:08:16] [Server thread/INFO]: RichterYT lost connection: Disconnected
+[11:08:16] [Server thread/INFO]: RichterYT left the game
+[11:08:54] [Server thread/INFO]: Pinont_ issued server command: //set tnt
+[11:09:24] [Server thread/INFO]: Pinont_ issued server command: //set tnt
+[11:09:42] [User Authenticator #6/INFO]: UUID of player RichterYT is 5228ca13-f006-414b-b5f9-1c3752531499
+[11:09:43] [Server thread/INFO]: RichterYT joined the game
+[11:09:43] [Server thread/INFO]: RichterYT[/25.15.25.250:56472] logged in with entity id 3731 at ([kitpvp-1]0.4548499320321559, 100.0, 0.47405087969472154)
+[11:09:44] [Server thread/INFO]: Pinont_ issued server command: //set tnt
+[11:09:52] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT Pinont_
+[11:09:52] [Server thread/INFO]: [Pinont_: Teleported RichterYT to Pinont_]
+[11:10:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5092ms or 101 ticks behind
+[11:10:24] [Server thread/INFO]: RichterYT lost connection: Disconnected
+[11:10:25] [Server thread/INFO]: RichterYT left the game
+[11:11:14] [Server thread/WARN]: Pinont_ moved too quickly! 10.928870219443146,0.0,2.8191895939021947
+[11:11:40] [Server thread/INFO]: Pinont_ issued server command: //set air
+[11:11:50] [Server thread/INFO]: Pinont_ issued server command: /clear
+[11:11:51] [Server thread/INFO]: [Pinont_: Removed 4 items from player Pinont_]
+[11:11:54] [Server thread/WARN]: Pinont_ moved too quickly! 5.045298984680164,4.23464996113529,-10.281488556172036
+[11:11:56] [Server thread/WARN]: Pinont_ moved too quickly! 0.348097081570252,0.0,-16.626844126135396
+[11:11:56] [Server thread/WARN]: Pinont_ moved too quickly! 0.35582810782795704,0.0,-15.694206759456733
+[11:11:58] [Server thread/WARN]: Pinont_ moved too quickly! 4.927668864324577,8.437503000615727,-3.8764934006928513
+[11:12:01] [Server thread/WARN]: Pinont_ moved too quickly! -5.34469352859773,7.875000310835745,7.41515387898724
+[11:12:02] [Server thread/WARN]: Pinont_ moved too quickly! -6.895801348670556,7.687507709194946,-2.66265816800113
+[11:12:04] [Server thread/WARN]: Pinont_ moved too quickly! -6.4897818892632735,5.495492755821701,-9.518638611765653
+[11:12:19] [RCON Listener #2/INFO]: Thread RCON Client /25.15.25.250 started
+[11:12:25] [Server thread/INFO]: [Rcon: Killed 39209 entities]
+[11:12:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 116765ms or 2335 ticks behind
+[11:12:49] [Server thread/INFO]: Pinont_ issued server command: /mw spawn
+[11:13:03] [User Authenticator #7/INFO]: UUID of player RichterYT is 5228ca13-f006-414b-b5f9-1c3752531499
+[11:13:04] [Server thread/INFO]: RichterYT joined the game
+[11:13:04] [Server thread/INFO]: RichterYT[/25.15.25.250:65305] logged in with entity id 43949 at ([kitpvp-1]-25.265486581138262, 77.28062762300125, 112.34851653772782)
+[11:13:10] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[11:13:10] [Server thread/INFO]: [Pinont_: Teleported Pinont_ to RichterYT]
+[11:13:10] [Server thread/WARN]: Pinont_ moved too quickly! -78.54752284055186,-15.214439469324816,-0.22249692734780524
+[11:13:10] [Server thread/WARN]: Pinont_ moved too quickly! -78.54752284055186,-15.214439469324816,-0.22249692734780524
+[11:13:10] [Server thread/WARN]: Pinont_ moved too quickly! -78.54752284055186,-15.214439469324816,-0.22249692734780524
+[11:13:10] [Server thread/WARN]: Pinont_ moved too quickly! -78.54752284055186,-15.214439469324816,-0.22249692734780524
+[11:13:19] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT Pinont_
+[11:13:19] [Server thread/INFO]: [Pinont_: Teleported RichterYT to Pinont_]
+[11:13:32] [Server thread/INFO]: RichterYT issued server command: //replacenear 20 bedrock air
+[11:13:34] [Server thread/INFO]: RichterYT issued server command: //replacenear 20 bedrock air
+[11:13:36] [Server thread/INFO]: RichterYT issued server command: //replacenear 20 bedrock air
+[11:13:39] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:13:41] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:13:44] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:13:45] [Server thread/INFO]: RichterYT issued server command: /gamemode adventure
+[11:13:45] [Server thread/INFO]: [RichterYT: Set own game mode to Adventure Mode]
+[11:13:47] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:13:47] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:13:48] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:13:50] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:13:54] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:13:56] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:13:57] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:13:59] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:01] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:03] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:04] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:06] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:07] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:09] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:10] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:12] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock air
+[11:14:13] [Server thread/INFO]: RichterYT issued server command: /gamemode adventure
+[11:14:13] [Server thread/INFO]: [RichterYT: Set own game mode to Adventure Mode]
+[11:14:14] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:14:14] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:14:25] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[11:14:25] [Server thread/INFO]: [Pinont_: Teleported Pinont_ to RichterYT]
+[11:14:27] [Server thread/INFO]: RichterYT issued server command: //cyl bedrock 50
+[11:14:40] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:14:44] [Server thread/INFO]: RichterYT issued server command: //cyl bedrock 100
+[11:15:01] [Server thread/INFO]: RichterYT issued server command: /gamemode adventure
+[11:15:01] [Server thread/INFO]: [RichterYT: Set own game mode to Adventure Mode]
+[11:15:01] [Server thread/INFO]: RichterYT fell from a high place
+[11:15:07] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:15:07] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:15:08] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:15:08] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:15:08] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:15:08] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:15:09] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:15:09] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:15:09] [Server thread/INFO]: Pinont_ issued server command: /clear
+[11:15:09] [Server thread/INFO]: [Pinont_: Removed 74 items from player Pinont_]
+[11:15:11] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:15:11] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:15:11] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:15:11] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:15:12] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:15:12] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:15:13] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:15:13] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:15:13] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:15:13] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:15:13] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:15:13] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:15:13] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:15:13] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:15:14] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:15:14] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:15:14] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:15:14] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:15:14] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:15:14] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:15:15] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:15:15] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:15:15] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:15:15] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:15:20] [Server thread/INFO]: RichterYT issued server command: /tp 0 101 0
+[11:15:20] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 0.500000, 101.000000, 0.500000]
+[11:15:31] [Server thread/INFO]: RichterYT issued server command: //hcyl sandstone 100
+[11:15:35] [Server thread/INFO]: RichterYT issued server command: //hcyl sandstone 100 50
+[11:15:49] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:15:59] [Server thread/INFO]: RichterYT issued server command: //hcyl smooth_sandstone 100 20
+[11:16:11] [Server thread/INFO]: Pinont_ issued server command: //set tnt
+[11:16:18] [Server thread/INFO]: RichterYT issued server command: /kill @e[type=tnt]
+[11:16:21] [Server thread/INFO]: Pinont_ issued server command: /gamemode spectator
+[11:16:21] [Server thread/INFO]: [Pinont_: Set own game mode to Spectator Mode]
+[11:16:22] [Server thread/INFO]: RichterYT issued server command: /kill @e[type=tnt]
+[11:16:24] [Server thread/INFO]: Pinont_ issued server command: /gamemode creative
+[11:16:24] [Server thread/INFO]: [Pinont_: Set own game mode to Creative Mode]
+[11:16:43] [Server thread/INFO]: Pinont_ issued server command: //set air
+[11:16:57] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:16:57] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:17:04] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:17:04] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:17:21] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:25] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:27] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:29] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:32] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:35] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:37] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:39] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:41] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:43] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:44] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:17:54] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-408 (MC: 1.17.1) ---
+[11:18:13] [Async Chat Thread - #13/INFO]: kitpvp-1 ADMIN RichterYT: t
+[11:18:18] [Async Chat Thread - #14/INFO]: kitpvp-1 OWNER Pinont_: hello?
+[11:18:19] [Async Chat Thread - #15/INFO]: kitpvp-1 OWNER Pinont_: :>
+[11:18:21] [Async Chat Thread - #16/INFO]: kitpvp-1 OWNER Pinont_: :>
+[11:18:29] [User Authenticator #8/INFO]: UUID of player RichterYT is 5228ca13-f006-414b-b5f9-1c3752531499
+[11:18:44] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[11:18:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:18:44] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[11:18:44] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[11:18:44] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[11:18:44] [Paper Watchdog Thread/ERROR]: Entity UUID: 5228ca13-f006-414b-b5f9-1c3752531499
+[11:18:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 59644ms or 1192 ticks behind
+[11:18:44] [Server thread/INFO]: Pinont_ issued server command: /clear
+[11:18:44] [Paper Watchdog Thread/ERROR]: Position: world: 'kitpvp-1' at location (-52.268612578691176, 118.24313577178174, 38.278149859190876)
+[11:18:44] [Server thread/INFO]: [Pinont_: Removed 3 items from player Pinont_]
+[11:18:44] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, 0.0, 0.0) (in blocks per tick)
+[11:18:44] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-52.568612590612105, 118.24313577178174, 37.97814984726995] -> [-51.96861256677025, 120.04313572409802, 38.578149871111805]
+[11:18:44] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 165177
+[11:18:44] [Server thread/INFO]: RichterYT lost connection: Disconnected
+[11:18:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:18:44] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[11:18:44] [Paper Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: RUNNABLE
+[11:18:44] [Paper Watchdog Thread/ERROR]: 	Stack:
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//com.google.common.collect.MapMakerInternalMap$WeakKeyWeakValueEntry.getValue(MapMakerInternalMap.java:854)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//com.google.common.collect.MapMakerInternalMap$Segment.get(MapMakerInternalMap.java:1424)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//com.google.common.collect.MapMakerInternalMap.get(MapMakerInternalMap.java:2345)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		ProtocolLib.jar//com.comphenix.protocol.injector.netty.InjectionFactory.fromPlayer(InjectionFactory.java:76)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		ProtocolLib.jar//com.comphenix.protocol.injector.netty.ProtocolInjector$4.handleDisconnect(ProtocolInjector.java:432)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterManager.onPlayerQuit(PacketFilterManager.java:944)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterManager.access$500(PacketFilterManager.java:71)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterManager$3.onPlayerQuit(PacketFilterManager.java:908)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.invoke.DirectMethodHandle$Holder.invokeVirtual(DirectMethodHandle$Holder)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.invoke.LambdaForm$MH/0x0000000801c54800.invoke(LambdaForm$MH)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.invoke.LambdaForm$MH/0x0000000801c54000.invoke_MT(LambdaForm$MH)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.players.PlayerList.disconnect(PlayerList.java:607)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.players.PlayerList.disconnect(PlayerList.java:592)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:1967)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:1947)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.network.Connection.handleDisconnection(Connection.java:743)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:221)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1656)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:490)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1483)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1282)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.MinecraftServer$$Lambda$3668/0x00000008013dae98.run(Unknown Source)
+[11:18:44] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[11:18:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:18:44] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[11:18:44] [Paper Watchdog Thread/ERROR]: ------------------------------
+[11:18:44] [Server thread/INFO]: RichterYT left the game
+[11:18:45] [Server thread/WARN]: Pinont_ moved too quickly! -9.43412724321173,5.686767377395853,-3.3344331932441005
+[11:18:45] [Server thread/INFO]: Pinont_ issued server command: /clear
+[11:18:45] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[11:18:45] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[11:18:45] [Server thread/INFO]: RichterYT joined the game
+[11:18:45] [Server thread/INFO]: RichterYT[/25.15.25.250:65501] logged in with entity id 44212 at ([kitpvp-1]-52.268612578691176, 118.24313577178174, 38.278149859190876)
+[11:19:08] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 2 moss_block
+[11:19:20] [Server thread/INFO]: Pinont_ issued server command: /clear
+[11:19:20] [Server thread/INFO]: [Pinont_: Removed 1 items from player Pinont_]
+[11:19:20] [Server thread/INFO]: RichterYT issued server command: //undo
+[11:19:29] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:19:34] [Server thread/INFO]: RichterYT issued server command: //replacenear 50 bedrock 2
+[11:19:54] [Server thread/INFO]: RichterYT issued server command: /kill @e[type=player,distance=100]
+[11:19:56] [Server thread/INFO]: RichterYT issued server command: /kill @e[type=player,distance=..100]
+[11:19:56] [Server thread/INFO]: Pinont_ fell out of the world
+[11:19:56] [Server thread/INFO]: RichterYT fell out of the world
+[11:19:56] [Server thread/INFO]: [RichterYT: Killed 2 entities]
+[11:20:21] [Server thread/INFO]: RichterYT issued server command: /npc command
+[11:20:28] [Server thread/INFO]: RichterYT issued server command: /npc command
+[11:20:34] [Server thread/INFO]: RichterYT issued server command: /npc help command
+[11:21:23] [Server thread/INFO]: RichterYT issued server command: /npc command add -p help
+[11:21:26] [Server thread/INFO]: RichterYT issued server command: /help
+[11:21:27] [Server thread/INFO]: RichterYT issued server command: /help
+[11:21:27] [Server thread/INFO]: RichterYT issued server command: /help
+[11:21:29] [Server thread/INFO]: RichterYT issued server command: /help
+[11:21:32] [Server thread/INFO]: RichterYT issued server command: /npc command remove -p help
+[11:21:32] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "help"
+[11:21:32] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[11:21:32] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[11:21:32] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+[11:21:32] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandContext.getInteger(CommandContext.java:180)
+[11:21:32] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.commands.NPCCommands.command(NPCCommands.java:381)
+[11:21:32] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[11:21:32] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[11:21:32] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[11:21:32] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[11:21:32] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.executeMethod(CommandManager.java:159)
+[11:21:32] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.execute(CommandManager.java:91)
+[11:21:32] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.executeSafe(CommandManager.java:187)
+[11:21:32] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.Citizens.onCommand(Citizens.java:277)
+[11:21:32] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[11:21:32] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[11:21:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:869)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2262)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2073)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2054)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:6)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$1(PlayerConnectionUtils.java:56)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:149)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(IAsyncTaskHandlerReentrant.java:23)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:1426)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:192)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:122)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1404)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1397)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:132)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1475)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1282)
+[11:21:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[11:21:32] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:21:33] [Server thread/INFO]: RichterYT issued server command: /npc command remove
+[11:21:37] [Server thread/INFO]: RichterYT issued server command: /npc command remove help
+[11:21:37] [Server thread/WARN]: java.lang.NumberFormatException: For input string: "help"
+[11:21:37] [Server thread/WARN]: 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+[11:21:37] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+[11:21:37] [Server thread/WARN]: 	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+[11:21:37] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandContext.getInteger(CommandContext.java:180)
+[11:21:37] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.commands.NPCCommands.command(NPCCommands.java:381)
+[11:21:37] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[11:21:37] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[11:21:37] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[11:21:37] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[11:21:37] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.executeMethod(CommandManager.java:159)
+[11:21:37] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.execute(CommandManager.java:91)
+[11:21:37] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.api.command.CommandManager.executeSafe(CommandManager.java:187)
+[11:21:37] [Server thread/WARN]: 	at Citizens-2.0.29ALPHA.jar//net.citizensnpcs.Citizens.onCommand(Citizens.java:277)
+[11:21:37] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[11:21:37] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[11:21:37] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.dispatchCommand(CraftServer.java:869)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2262)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2073)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2054)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:46)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInChat.a(PacketPlayInChat.java:6)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$1(PlayerConnectionUtils.java:56)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:149)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.executeTask(IAsyncTaskHandlerReentrant.java:23)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:1426)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:192)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:122)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1404)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.executeNext(MinecraftServer.java:1397)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:132)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.sleepForTick(MinecraftServer.java:1375)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1286)
+[11:21:37] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[11:21:37] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:21:40] [Server thread/INFO]: RichterYT issued server command: /npc command
+[11:21:43] [Server thread/INFO]: Pinont_ issued server command: /give @s trident{Enchantments:[{id:riptide,lvl:6}]} 1
+[11:21:44] [Server thread/INFO]: [Pinont_: Gave 1 [Trident] to Pinont_]
+[11:21:47] [Server thread/INFO]: RichterYT issued server command: /npc command -r
+[11:21:48] [Server thread/INFO]: RichterYT issued server command: /npc command -r 1
+[11:21:49] [Server thread/INFO]: Pinont_ is now AFK
+[11:21:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[11:21:49] [Server thread/INFO]: RichterYT issued server command: /npc command -r 2
+[11:21:49] [Server thread/INFO]: Pinont_ is no longer AFK
+[11:21:49] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[11:21:50] [Server thread/INFO]: RichterYT issued server command: /npc command -r 0
+[11:21:58] [Server thread/INFO]: RichterYT issued server command: /npc command remove 0
+[11:22:13] [Server thread/INFO]: Pinont_ issued server command: /give @s trident{Enchantments:[{id:riptide,lvl:50}]} 1
+[11:22:13] [Server thread/INFO]: [Pinont_: Gave 1 [Trident] to Pinont_]
+[11:22:15] [Server thread/INFO]: RichterYT issued server command: /npc command add -p mw goto kitpvp-1
+[11:22:15] [Server thread/INFO]: RichterYT issued server command: /mw goto kitpvp-1
+[11:22:16] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world kitpvp-1
+[11:22:16] [Server thread/WARN]: Pinont_ moved too quickly! -16.64565512048536,-62.25446050727717,-15.423314830007712
+[11:22:26] [Server thread/WARN]: Pinont_ moved too quickly! 9.927280491771185,31.042853749078468,60.621824284539116
+[11:22:26] [Server thread/WARN]: Pinont_ moved too quickly! 5.515155792236342,17.248807524142585,33.67879104614258
+[11:22:27] [Server thread/WARN]: Pinont_ moved too quickly! 3.26205607171201,29.85000355387956,26.958178362324787
+[11:22:28] [Server thread/INFO]: RichterYT issued server command: /mw goto Lobby
+[11:22:28] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world Lobby
+[11:22:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[11:22:31] [Server thread/INFO]: RichterYT issued server command: /tp @a @p
+[11:22:31] [Server thread/INFO]: [RichterYT: Teleported 2 entities to RichterYT]
+[11:22:32] [Server thread/WARN]: Pinont_ moved too quickly! 148.73081060080068,51.053439534590915,514.626711553401
+[11:22:34] [Server thread/WARN]: Pinont_ moved too quickly! 2.3944554328918457,12.081374897956849,36.567916870117216
+[11:22:36] [Server thread/WARN]: Pinont_ moved too quickly! 1.5343125392118395,25.361029135105156,25.452269658243154
+[11:22:37] [Server thread/INFO]: RichterYT issued server command: /weather clear
+[11:22:37] [Server thread/INFO]: [RichterYT: Set the weather to clear]
+[11:22:39] [Server thread/WARN]: Pinont_ moved too quickly! -1.8049211917624461,70.1704142228592,5.760619912532036
+[11:22:39] [Server thread/INFO]: RichterYT issued server command: /tp @a @p
+[11:22:39] [Server thread/INFO]: [RichterYT: Teleported 2 entities to RichterYT]
+[11:22:53] [Server thread/INFO]: RichterYT issued server command: /invsee Pinont_
+[11:22:57] [Server thread/WARN]: Pinont_ moved too quickly! -19.750242631529886,16.29338801168238,-38.20170063062952
+[11:23:05] [Server thread/WARN]: RichterYT moved too quickly! 3.1465678998729345,13.166457152388006,29.34577713309818
+[11:23:05] [Server thread/WARN]: Pinont_ moved too quickly! -31.19113507271298,-1.322745655399725,-22.25085603619638
+[11:23:12] [Server thread/WARN]: RichterYT moved too quickly! 17.42991488063842,18.34231827275046,21.546795878983147
+[11:23:14] [Server thread/WARN]: RichterYT moved too quickly! 11.149237190149165,7.909212041765301,0.0
+[11:23:18] [Server thread/WARN]: Pinont_ moved too quickly! 36.22633361816406,11.74300551542257,-3.3261637687683105
+[11:23:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5025ms or 100 ticks behind
+[11:23:19] [Server thread/WARN]: Pinont_ moved too quickly! 35.47016525268555,14.239773121838253,-1.2042958736419678
+[11:23:20] [Server thread/WARN]: Pinont_ moved too quickly! 32.76267623901367,19.65352856367224,0.6848570108413696
+[11:23:20] [Server thread/WARN]: RichterYT moved too quickly! -4.149815258113733,0.733203869134897,-15.009062054428256
+[11:23:21] [Server thread/WARN]: Pinont_ moved too quickly! 32.941280364990234,17.29719376087189,-10.892837524414062
+[11:23:25] [Server thread/WARN]: Pinont_ moved too quickly! 21.714101944451556,11.25986511257885,-0.7371489172324459
+[11:23:27] [Server thread/WARN]: RichterYT moved too quickly! -5.6814319387548835,1.275677698552606,-37.8762254777083
+[11:23:27] [Server thread/WARN]: Pinont_ moved too quickly! 28.004621229672694,3.1900768978166028,-0.7331476950388378
+[11:23:29] [Server thread/WARN]: RichterYT moved too quickly! -2.5313250031555867,-0.005000000000002558,-17.520605185317116
+[11:23:29] [Server thread/WARN]: Pinont_ moved too quickly! 35.030338287353516,-14.22281184432483,4.386738243871719
+[11:23:30] [Server thread/WARN]: Pinont_ moved too quickly! 54.85747859773903,-0.7680289111865619,4.893679037520997
+[11:23:30] [Server thread/WARN]: Pinont_ moved too quickly! 30.476376796906834,-0.42390494785178845,2.7187105583952302
+[11:23:31] [Server thread/WARN]: RichterYT moved too quickly! 26.366726166983767,0.5580639652812778,-27.75879564287052
+[11:23:32] [Server thread/WARN]: Pinont_ moved too quickly! 50.78372356097691,28.080680240520948,9.823601748402666
+[11:23:32] [Server thread/WARN]: RichterYT moved too quickly! 21.397942855713893,0.11255816556399623,-21.942419292385548
+[11:23:33] [Server thread/WARN]: RichterYT moved too quickly! 19.897181881750726,4.328246869763177,-15.333345339587368
+[11:23:34] [Server thread/WARN]: Pinont_ moved too quickly! -12.02821159362793,28.024107959223024,23.01013946533203
+[11:23:37] [Server thread/WARN]: RichterYT moved too quickly! 17.963597363170948,19.299930007102233,-32.13335812852358
+[11:23:42] [Server thread/WARN]: RichterYT moved too quickly! -4.7190636270417485,11.676519691819962,-27.5572456085917
+[11:23:45] [Server thread/WARN]: RichterYT moved too quickly! -17.799559216392424,8.415229159666666,3.1471878635301778
+[11:24:00] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:24:00] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:24:33] [Server thread/WARN]: RichterYT moved too quickly! 44.357726288292696,52.600740627636284,8.616044556303564
+[11:24:44] [Async Chat Thread - #17/INFO]: Lobby OWNER Pinont_: doctor4t
+[11:25:48] [Server thread/INFO]: RichterYT issued server command: /mw goto kitpvp-1
+[11:25:48] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world kitpvp-1
+[11:25:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5406ms or 108 ticks behind
+[11:25:50] [Server thread/INFO]: RichterYT issued server command: /mw goto Lobby
+[11:25:50] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world Lobby
+[11:25:53] [Server thread/INFO]: RichterYT issued server command: /tp @a @p
+[11:25:53] [Server thread/INFO]: [RichterYT: Teleported 2 entities to RichterYT]
+[11:26:35] [Server thread/INFO]: RichterYT issued server command: /npc rename &4Make Survival Pls
+[11:26:43] [Server thread/INFO]: RichterYT issued server command: /tp @a @p
+[11:26:43] [Server thread/INFO]: [RichterYT: Teleported 2 entities to RichterYT]
+[11:26:50] [Server thread/INFO]: RichterYT issued server command: /give @p minecraft:barrier
+[11:26:50] [Server thread/INFO]: [RichterYT: Gave 1 [Barrier] to RichterYT]
+[11:26:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[11:27:25] [Server thread/INFO]: Pinont_ issued server command: /mw goto kitpvp-1
+[11:27:25] [Server thread/INFO]: [MultiWorld] Pinont_: Moved player Pinont_ to world kitpvp-1
+[11:27:25] [Server thread/INFO]: RichterYT issued server command: /mw goto kitpvp-1
+[11:27:25] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world kitpvp-1
+[11:27:29] [Server thread/INFO]: RichterYT issued server command: /gamemode spectator
+[11:27:29] [Server thread/INFO]: [RichterYT: Set own game mode to Spectator Mode]
+[11:27:31] [Server thread/INFO]: RichterYT issued server command: /gamemode creative
+[11:27:31] [Server thread/INFO]: [RichterYT: Set own game mode to Creative Mode]
+[11:27:40] [Server thread/INFO]: Pinont_ issued server command: /mw goto lobby
+[11:27:40] [Server thread/INFO]: [MultiWorld] Pinont_: Moved player Pinont_ to world Lobby
+[11:27:47] [Server thread/INFO]: Pinont_ issued server command: /npc list
+[11:27:49] [Server thread/INFO]: RichterYT issued server command: /mw goto Lobby
+[11:27:49] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world Lobby
+[11:27:54] [Server thread/INFO]: Pinont_ issued server command: /npc delete 20
+[11:27:57] [Server thread/INFO]: RichterYT issued server command: /weather clear
+[11:27:57] [Server thread/INFO]: [RichterYT: Set the weather to clear]
+[11:28:10] [Server thread/INFO]: Pinont_ issued server command: /npc select 20
+[11:28:15] [Server thread/INFO]: Pinont_ issued server command: /npc delete
+[11:28:15] [Server thread/INFO]: RichterYT issued server command: /npc wither
+[11:28:19] [Server thread/INFO]: Pinont_ issued server command: /npc removew
+[11:28:22] [Server thread/INFO]: Pinont_ issued server command: /npc remove
+[11:28:25] [Server thread/INFO]: RichterYT issued server command: /npc control
+[11:28:26] [Server thread/INFO]: RichterYT issued server command: /npc control
+[11:28:32] [Server thread/INFO]: RichterYT issued server command: /npc tp
+[11:28:35] [Server thread/INFO]: RichterYT issued server command: /npc list
+[11:28:41] [Server thread/INFO]: RichterYT issued server command: /npc control
+[11:28:56] [Server thread/INFO]: RichterYT issued server command: /npc controllable
+[11:28:57] [Server thread/INFO]: RichterYT issued server command: /npc controllable
+[11:29:01] [Server thread/INFO]: RichterYT issued server command: /npc path
+[11:29:10] [Server thread/INFO]: RichterYT issued server command: /npc speed 1.5
+[11:29:12] [Server thread/INFO]: RichterYT issued server command: /npc speed 12
+[11:29:13] [Server thread/INFO]: RichterYT issued server command: /npc speed 2
+[11:29:17] [Server thread/INFO]: RichterYT issued server command: /npc speed 5
+[11:29:29] [Server thread/INFO]: Pinont_ issued server command: /weather rain
+[11:29:29] [Server thread/INFO]: [Pinont_: Set the weather to rain]
+[11:29:31] [Server thread/WARN]: Pinont_ moved too quickly! 17.705402374267578,1.6226142787933355,-33.86277770996094
+[11:29:34] [Server thread/WARN]: Pinont_ moved too quickly! 72.82307534482493,7.891019921853996,2.1087950196194356
+[11:29:37] [Server thread/WARN]: Pinont_ moved too quickly! -0.019374528929404278,4.929085188540881,-73.0055000584411
+[11:29:43] [Server thread/WARN]: Pinont_ moved too quickly! -35.05462035183854,10.273633323599427,5.077871646405185
+[11:29:46] [Server thread/WARN]: Pinont_ moved too quickly! 30.91734020553892,-0.07840000152589255,-15.648049295805606
+[11:29:52] [Server thread/WARN]: Pinont_ moved too quickly! -33.908844603921125,22.64370703436549,10.175790438925418
+[11:29:53] [Server thread/WARN]: Pinont_ moved too quickly! -13.40811850374294,-23.004536513961312,19.56122803218173
+[11:29:56] [Server thread/WARN]: Pinont_ moved too quickly! 3.8754078613465595,26.561448545715166,12.837140610204756
+[11:29:57] [Server thread/WARN]: Pinont_ moved too quickly! 8.382762908935547,-7.342829570770277,33.818963078613706
+[11:29:59] [Server thread/WARN]: Pinont_ moved too quickly! -19.257961870329552,-14.531584875107228,-22.670252829914148
+[11:30:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5530ms or 110 ticks behind
+[11:30:04] [Server thread/INFO]: RichterYT issued server command: /npc tph
+[11:30:04] [Server thread/INFO]: Pinont_ has reached the goal [Sky's the Limit]
+[11:30:09] [Server thread/INFO]: RichterYT issued server command: /npc controllable
+[11:30:25] [Server thread/WARN]: Pinont_ moved too quickly! -4.312433755246047,-0.07840000152589255,-34.67032218203485
+[11:30:32] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT
+[11:30:32] [Server thread/INFO]: [Pinont_: Teleported Pinont_ to RichterYT]
+[11:30:32] [Server thread/WARN]: Pinont_ moved too quickly! -19.872906261406683,-544.6649009089789,299.9352503985021
+[11:30:37] [Server thread/INFO]: RichterYT issued server command: /npc path
+[11:30:53] [Server thread/WARN]: Pinont_ moved too quickly! -8.124726314669402,29.671974500031467,-20.166077207621555
+[11:30:57] [Server thread/WARN]: Pinont_ moved too quickly! 2.8490437209909487,59.88651547431502,54.49104500127157
+[11:30:58] [Server thread/INFO]: RichterYT issued server command: /invsee Pinont_
+[11:31:13] [Server thread/WARN]: RichterYT moved too quickly! -11.957674706476325,-36.17671860087489,8.382629217949159
+[11:31:14] [Server thread/WARN]: RichterYT moved too quickly! -20.61419381516032,-31.577569009000484,-5.839705021787893
+[11:31:15] [Server thread/WARN]: RichterYT moved too quickly! -0.22176754379540853,36.32113524352019,0.033374177249413606
+[11:31:20] [Server thread/WARN]: RichterYT moved too quickly! -22.99769318925371,-13.44526094171681,-26.81621500762907
+[11:31:22] [Server thread/WARN]: RichterYT moved too quickly! -1.6394341587766803,72.33042305752251,-3.8232332052583047
+[11:31:24] [Server thread/WARN]: RichterYT moved too quickly! -1.1874844741932407,64.46319533352107,-2.399661397375894
+[11:31:25] [Server thread/INFO]: Pinont_ issued server command: /tp RichterYT Pinont_
+[11:31:25] [Server thread/INFO]: [Pinont_: Teleported RichterYT to Pinont_]
+[11:31:31] [Server thread/WARN]: RichterYT moved too quickly! 3.7805523483838215,-10.614132624382592,13.40479363647357
+[11:31:31] [Server thread/WARN]: Pinont_ moved too quickly! -18.940025265917257,-27.134330256337762,10.202265521493928
+[11:31:42] [Server thread/WARN]: Pinont_ moved too quickly! 0.0,-34.80494215739509,0.0
+[11:31:42] [Server thread/WARN]: RichterYT moved too quickly! -1.0401223639985346,-40.16847621196598,-0.4094784415185302
+[11:31:46] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:31:46] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:31:50] [Server thread/INFO]: RichterYT issued server command: /mw goto Lobby
+[11:31:50] [Server thread/INFO]: [MultiWorld] RichterYT: Moved player RichterYT to world Lobby
+[11:31:52] [Server thread/WARN]: RichterYT moved too quickly! -1.207382213603239,3.0043773832892953,29.64581940363371
+[11:32:09] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_ ~ 10000000000000 ~
+[11:32:09] [Server thread/WARN]: Refused to teleport Pinont_ to 211.26336991170393, 1.0E13, 385.181666032381
+[11:32:09] [Server thread/INFO]: [RichterYT: Teleported Pinont_ to 211.263370, 10000000000000.000000, 385.181666]
+[11:32:13] [Server thread/WARN]: Pinont_ moved too quickly! -3.4344117531963434,-20.085902860602886,-3.6520739151043244
+[11:32:15] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:32:15] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:32:17] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_ ~ 10000000000000 ~
+[11:32:17] [Server thread/WARN]: Refused to teleport Pinont_ to 334.4955748072582, 1.0E13, 436.3269511319616
+[11:32:17] [Server thread/INFO]: [RichterYT: Teleported Pinont_ to 334.495575, 10000000000000.000000, 436.326951]
+[11:32:18] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:32:18] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:32:20] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_ ~ 10000000000 ~
+[11:32:20] [Server thread/WARN]: Refused to teleport Pinont_ to 334.85023054412835, 1.0E10, 439.3593978909444
+[11:32:20] [Server thread/INFO]: [RichterYT: Teleported Pinont_ to 334.850231, 10000000000.000000, 439.359398]
+[11:32:22] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_ ~ 1000000000 ~
+[11:32:22] [Server thread/WARN]: Refused to teleport Pinont_ to 334.85023054412835, 1.0E9, 439.36591746386966
+[11:32:22] [Server thread/INFO]: [RichterYT: Teleported Pinont_ to 334.850231, 1000000000.000000, 439.365917]
+[11:32:24] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_ ~ 100000000 ~
+[11:32:24] [Server thread/WARN]: Refused to teleport Pinont_ to 333.571733800079, 1.0E8, 438.6900927302855
+[11:32:24] [Server thread/INFO]: [RichterYT: Teleported Pinont_ to 333.571734, 100000000.000000, 438.690093]
+[11:32:25] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_ ~ 10000000 ~
+[11:32:25] [Server thread/INFO]: [RichterYT: Teleported Pinont_ to 330.311204, 10000000.000000, 436.966548]
+[11:32:27] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:32:27] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:32:38] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_ ~ 10000999 ~
+[11:32:38] [Server thread/INFO]: [RichterYT: Teleported Pinont_ to 326.615553, 10000999.000000, 432.338327]
+[11:32:38] [Server thread/WARN]: Pinont_ moved too quickly! -9.093565112500983,1780.9643946103752,-0.7142240223797103
+[11:32:38] [Server thread/WARN]: Pinont_ moved too quickly! -9.093565112500983,1780.9643946103752,-0.7142240223797103
+[11:32:38] [Server thread/WARN]: Pinont_ moved too quickly! -9.093565112500983,1780.9643946103752,-0.7142240223797103
+[11:32:38] [Server thread/WARN]: Pinont_ moved too quickly! -9.093565112500983,1780.9643946103752,-0.7142240223797103
+[11:32:38] [Server thread/WARN]: Pinont_ moved too quickly! -9.093565112500983,1780.9643946103752,-0.7142240223797103
+[11:32:41] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:32:41] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:32:44] [Server thread/INFO]: RichterYT issued server command: /tp ~ 10000999 ~
+[11:32:44] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 10000999.000000, 432.338438]
+[11:32:49] [Server thread/INFO]: Pinont_ issued server command: /tp ~ 500 ~
+[11:32:49] [Server thread/INFO]: [Pinont_: Teleported Pinont_ to 327.067258, 500.000000, 432.339193]
+[11:32:49] [Server thread/INFO]: RichterYT issued server command: /tp ~ 99999999 ~
+[11:32:49] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 9.9999999E7, 432.3384376006606
+[11:32:49] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 99999999.000000, 432.338438]
+[11:32:50] [Server thread/WARN]: Pinont_ moved too quickly! 0.2571260651519083,-39.60132901334049,-0.15048568516385785
+[11:32:51] [Server thread/INFO]: RichterYT issued server command: /tp ~ 9999999 ~
+[11:32:51] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 9999999.000000, 432.338438]
+[11:32:59] [Server thread/INFO]: RichterYT issued server command: /tp ~ 10000099 ~
+[11:32:59] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 10000099.000000, 432.338438]
+[11:33:00] [Server thread/INFO]: RichterYT issued server command: /tp ~ 10000099 ~
+[11:33:00] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 10000099.000000, 432.338438]
+[11:33:01] [Server thread/WARN]: Pinont_ moved too quickly! -34.29526844918638,27.185169786223483,-56.244632702870774
+[11:33:02] [Server thread/INFO]: RichterYT issued server command: /tp ~ 10000090 ~
+[11:33:02] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 10000090.000000, 432.338438]
+[11:33:04] [Server thread/INFO]: RichterYT issued server command: /tp ~ 10000000 ~
+[11:33:04] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 10000000.000000, 432.338438]
+[11:33:07] [Server thread/INFO]: RichterYT issued server command: /tp ~ 20000000 ~
+[11:33:07] [Server thread/WARN]: Pinont_ moved too quickly! -39.83888938687096,51.6596418416982,-0.9822596203891472
+[11:33:07] [Server thread/WARN]: Pinont_ moved too quickly! -20.442306917655173,26.117797678625152,-1.3910167660463078
+[11:33:12] [Server thread/INFO]: RichterYT issued server command: /tp ~ 15000000 ~
+[11:33:12] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 15000000.000000, 432.338438]
+[11:33:13] [Server thread/WARN]: Pinont_ moved too quickly! 16.99017197506214,-34.16991434025732,-7.550650821897044
+[11:33:15] [Server thread/INFO]: RichterYT issued server command: /tp ~ 19000000 ~
+[11:33:15] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 19000000.000000, 432.338438]
+[11:33:21] [Server thread/INFO]: RichterYT issued server command: /tp ~ 19999999 ~
+[11:33:21] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 19999999.000000, 432.338438]
+[11:33:23] [Server thread/WARN]: Pinont_ moved too quickly! 6.407178947105706,-18.233774963467283,-36.200867744454
+[11:33:23] [Server thread/INFO]: RichterYT issued server command: /tp ~ 199999999 ~
+[11:33:23] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 1.99999999E8, 432.3384376006606
+[11:33:23] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 199999999.000000, 432.338438]
+[11:33:25] [Server thread/WARN]: Pinont_ moved too quickly! 3.487232312061849,-20.990947953510386,-32.48590674366284
+[11:33:25] [Server thread/INFO]: RichterYT issued server command: /tp ~ 1999999999 ~
+[11:33:25] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 1.999999999E9, 432.3384376006606
+[11:33:25] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 1999999999.000000, 432.338438]
+[11:33:27] [Server thread/INFO]: RichterYT issued server command: /tp ~ 1999999999 ~
+[11:33:27] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 1.999999999E9, 432.3384376006606
+[11:33:27] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 1999999999.000000, 432.338438]
+[11:33:27] [Server thread/WARN]: Pinont_ moved too quickly! 3.4488952144307063,-22.47603901060114,-31.425287826892088
+[11:33:28] [Server thread/INFO]: RichterYT issued server command: /tp ~ 1999999999 ~
+[11:33:28] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 1.999999999E9, 432.3384376006606
+[11:33:28] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 1999999999.000000, 432.338438]
+[11:33:29] [Server thread/WARN]: Pinont_ moved too quickly! -0.8508643602705774,-38.385193440074545,-1.8978356971093149
+[11:33:31] [Server thread/INFO]: RichterYT issued server command: /tp ~ 199999999 ~
+[11:33:31] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 1.99999999E8, 432.3384376006606
+[11:33:31] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 199999999.000000, 432.338438]
+[11:33:31] [Server thread/WARN]: Pinont_ moved too quickly! -6.5715861349977445,-18.936862833259084,-11.896309368424511
+[11:33:33] [Server thread/INFO]: RichterYT issued server command: /tp ~ 199999999 ~
+[11:33:33] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 1.99999999E8, 432.3384376006606
+[11:33:33] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 199999999.000000, 432.338438]
+[11:33:33] [Server thread/INFO]: RichterYT issued server command: /tp ~ 199999999 ~
+[11:33:33] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 1.99999999E8, 432.3384376006606
+[11:33:33] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 199999999.000000, 432.338438]
+[11:33:33] [Server thread/WARN]: Pinont_ moved too quickly! 148.2084430313993,124.43614295776987,20.24859543693333
+[11:33:33] [Server thread/INFO]: RichterYT issued server command: /tp ~ 199999999 ~
+[11:33:33] [Server thread/WARN]: Refused to teleport RichterYT to 326.6731859980906, 1.99999999E8, 432.3384376006606
+[11:33:33] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 199999999.000000, 432.338438]
+[11:33:35] [Server thread/INFO]: RichterYT issued server command: /tp ~ 19999999 ~
+[11:33:35] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 19999999.000000, 432.338438]
+[11:33:36] [Server thread/INFO]: RichterYT issued server command: /tp ~ 19999999 ~
+[11:33:36] [Server thread/INFO]: [RichterYT: Teleported RichterYT to 326.673186, 19999999.000000, 432.338438]
+[11:33:36] [Server thread/WARN]: Pinont_ moved too quickly! -0.10142177399862362,4.390898155079938,-15.200095122739526
+[11:33:37] [Server thread/WARN]: Pinont_ moved too quickly! 20.403388483297007,10.010043582813267,18.056956234218262
+[11:33:38] [Server thread/INFO]: RichterYT issued server command: /tp @a ~ 19999999 ~
+[11:33:38] [Server thread/INFO]: [RichterYT: Teleported 2 entities to 326.673186, 19999999.000000, 432.338438]
+[11:33:38] [Server thread/WARN]: Pinont_ moved too quickly! 349.30972192052144,1.9999909566181146E7,846.520735219335
+[11:33:42] [Server thread/INFO]: Pinont_ lost connection: Disconnected
+[11:33:42] [Server thread/INFO]: Pinont_ left the game
+[11:33:46] [User Authenticator #9/INFO]: UUID of player Pinont_ is 1ef0ba4a-36e1-42ee-820e-15946cc1dac9
+[11:33:46] [Server thread/INFO]: Pinont_ joined the game
+[11:33:46] [Server thread/INFO]: Pinont_[/127.0.0.1:57712] logged in with entity id 45040 at ([Lobby]326.6636774385029, 1.9999893885349028E7, 432.3384376006606)
+[11:34:06] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:34:06] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:34:11] [Server thread/INFO]: RichterYT issued server command: /tp Pinont_
+[11:34:11] [Server thread/INFO]: [RichterYT: Teleported RichterYT to Pinont_]
+[11:34:19] [Server thread/WARN]: Pinont_ moved too quickly! -5.958449657375326,-47.80663985013962,-7.304697476301698
+[11:34:19] [Server thread/WARN]: RichterYT moved too quickly! -6.863760541424938,-85.13158267736435,-4.047659996585139
+[11:34:30] [Server thread/INFO]: Pinont_ issued server command: /mw goto kitpvp-1
+[11:34:30] [Server thread/INFO]: [MultiWorld] Pinont_: Moved player Pinont_ to world kitpvp-1
+[11:35:56] [Server thread/INFO]: RichterYT is now AFK
+[11:35:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[11:36:00] [Server thread/INFO]: Pinont_ lost connection: Disconnected
+[11:36:00] [Server thread/INFO]: Pinont_ left the game
+[11:36:09] [Server thread/INFO]: RichterYT is no longer AFK
+[11:36:09] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[11:36:16] [Server thread/INFO]: Stopping the server
+[11:36:16] [Server thread/INFO]: Stopping server
+[11:36:16] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.14.0
+[11:36:16] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2419)
+[11:36:16] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6+1cff55f
+[11:36:16] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[11:36:16] [Server thread/INFO]: [PowerRanks] Disabling PowerRanks v1.10.4
+[11:36:16] [Server thread/INFO]: [PowerRanks] Disabled PowerRanks v1.10.4
+[11:36:16] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.4-Release
+[11:36:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.8+6008-1246d61
+[11:36:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:36:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.7.0
+[11:36:16] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[11:36:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.1.1
+[11:36:16] [Server thread/INFO]: [ChairStairs] Disabling ChairStairs v1.1
+[11:36:16] [Server thread/INFO]: [ChairStairs] has been disabled.
+[11:36:16] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v3.6
+[11:36:16] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:36:16] [Server thread/INFO]: [HoloDrops] Disabling HoloDrops v2.6
+[11:36:16] [Server thread/INFO]: [PersonalVaults] Disabling PersonalVaults v1.0.0
+[11:36:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.1.1
+[11:36:16] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[11:36:16] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[11:36:16] [Server thread/INFO]: [Vanish] Disabling Vanish v1.2
+[11:36:16] [Server thread/INFO]: [AFKPlus] Disabling AFKPlus v3.3.13
+[11:36:16] [Server thread/INFO]: [AFKPlus] AFKPlus has been disabled!
+[11:36:16] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
+[11:36:16] [Server thread/INFO]: [Medic] Disabling Medic v2.0.2
+[11:36:16] [Server thread/INFO]: [MultiWorld] Disabling MultiWorld v5.2.8
+[11:36:16] [Server thread/INFO]: [MultiWorld] Disabled.
+[11:36:16] [Server thread/INFO]: Saving players
+[11:36:16] [Server thread/INFO]: RichterYT lost connection: Server closed
+[11:36:16] [Server thread/INFO]: RichterYT left the game
+[11:36:17] [Server thread/INFO]: Saving worlds
+[11:36:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Lobby]'/minecraft:overworld
+[11:36:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Lobby_nether]'/minecraft:the_nether
+[11:36:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Lobby_the_end]'/minecraft:the_end
+[11:36:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[old-world]'/minecraft:old-world
+[11:36:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:world
+[11:36:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[kitpvp-1]'/minecraft:kitpvp-1
+[11:36:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Lobby): All chunks are saved
+[11:36:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:36:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:36:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (old-world): All chunks are saved
+[11:36:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:36:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (kitpvp-1): All chunks are saved
+[11:36:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:36:18] [Server thread/INFO]: Flushing Chunk IO
+[11:36:18] [Server thread/INFO]: Closing Thread Pool
+[11:36:18] [Server thread/INFO]: Closing Server

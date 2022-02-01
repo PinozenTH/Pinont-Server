@@ -1,0 +1,1 @@
+execute in minecraft:lobby run function script:world/lobby/main
